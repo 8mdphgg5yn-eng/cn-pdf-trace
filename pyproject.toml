@@ -1,0 +1,47 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cn-pdf-trace"
+version = "0.2.0"
+description = "Local Chinese PDF excerpt provenance and consistency demo"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE", "third_party/*.txt"]
+authors = [{name = "Mgb"}]
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "docling-slim[convert-core,format-pdf,models-local]==2.141.0",
+  "pypdfium2>=4.30,<6",
+  "pypdf>=6,<7",
+  "opencv-python-headless>=4.13,<5",
+  "markdown-it-py>=4,<5",
+]
+
+[project.optional-dependencies]
+dev = ["reportlab>=4.4,<5", "fonttools>=4.60,<5", "pytest>=9,<10", "ruff>=0.15,<0.16"]
+ocr-mac = ["docling-slim[feat-ocr-mac]==2.141.0 ; sys_platform == 'darwin'"]
+
+[project.scripts]
+cntrace = "cntrace.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["scripts"]
+markers = ["integration: runs Docling with local model weights"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/cntrace"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "/src", "/tests", "/scripts", "/docs", "/third_party", "/fixtures", "/examples",
+  "/README.md", "/CONTRIBUTING.md", "/LICENSE", "/.gitignore",
+  "/pyproject.toml", "/uv.lock", "/models.lock.json", "/font.lock.json",
+]
+exclude = ["**/__pycache__", "**/*.pyc", "/scripts/prepare_release.py",
+  "/docs/phase*-results.md", "/docs/upstream-audit.md"]

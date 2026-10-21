@@ -1,0 +1,103 @@
+{
+  "scope": "10 wholly synthetic Chinese PDFs; no real customer files; source-install validation on one existing macOS host",
+  "platform": {
+    "system": "Darwin",
+    "machine": "arm64",
+    "macos": "27.0.1"
+  },
+  "python": "3.12.14",
+  "fresh_source_and_empty_dependency_and_asset_caches": true,
+  "processing_os_network_denial": true,
+  "repeated_fixture_generation": {
+    "fresh_generation_pdf_bytes_repeatable": 10,
+    "fresh_generation_gold_bytes_repeatable": true,
+    "fixture_hashes": {
+      "contract.pdf": "7424358988cdb8f415e892330c3564ff9fe7ffa2f9dea9938ae1e809b118c968",
+      "settlement.pdf": "365ef91d72e01aa9b26470d218527b9b24b8ff7f5aa7d84a4781ecb2f2ccb4a8",
+      "creditors.pdf": "876d74dbf6d325c969e98f0e4fd186f34f4cc5de75580847e6d7cb9a6192875d",
+      "creditors_merged.pdf": "e6564f9d333a2748f9f2d11daa07ee66ccb3fda0084b49612bc56c49f538ca5e",
+      "table_three_pages.pdf": "9783bf71951f8be7f3e60dbe8d1b405df7fde0f5b6633511203a9e8e4e24a34c",
+      "table_no_header.pdf": "e43dc0fa03ab4882b6fed771781c09ca164b4e04a99502f3a8154a50e6736de0",
+      "page_labels.pdf": "d9f630dd7088d6e54711513e25c1bc2b468b05bf7da05e8224b061ea63155656",
+      "scan_contract.pdf": "a969e9042122fc7c09c975aeb41206bffaad6c98ef6ec009f0851249da52d1b1",
+      "scan_degraded.pdf": "eeafac9cc82fc6bd3391ec168133f5c5537cb1becb96a93e59c9c9b2f4e31846",
+      "hybrid.pdf": "b37d8126209df11c36bfe5d7242a5dbd8471dbbda73254cc33e65d28f23c4061"
+    }
+  },
+  "regression": {
+    "tests": 64,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "warnings": 23,
+  "excerpt_counts": {
+    "verified": 76,
+    "needs_review": 22,
+    "unresolved": 2
+  },
+  "executed_python_files": [
+    {
+      "path": "scripts/acceptance.py",
+      "sha256": "98fa23fe488e96d20a8407df73bffe5587c13fa43c1c774c4c7ac5741577c1c3"
+    },
+    {
+      "path": "scripts/fixture_metrics.py",
+      "sha256": "940bc4bf8597cad642160e40ed3020d59d74336c81e1b1201062189b0691751e"
+    },
+    {
+      "path": "scripts/make_fixtures.py",
+      "sha256": "14d6e5cec541022ce70b9bed3339af15254c48067e6efcad071772725536acb5"
+    },
+    {
+      "path": "scripts/phase2_fixtures.py",
+      "sha256": "d66611541f9d19f9e7bd9ca1a2e8e67993454883639eef54b7f1b5a1520f1eee"
+    },
+    {
+      "path": "scripts/prepare_assets.py",
+      "sha256": "56c01276157b9fda3a437cc7430d2c77e11f2161367ad3e7b402d3a0b0f6e82c"
+    },
+    {
+      "path": "scripts/reproduce_clean.py",
+      "sha256": "2fc6a3973fdf42518f31d9e7936ea7abe63da64a3001443115012c3a57f7fea9"
+    },
+    {
+      "path": "scripts/run_demo.py",
+      "sha256": "275fc8c4d079a462499921044d6766bfa1fac3b737249163c6caee1cc32091c7"
+    },
+    {
+      "path": "src/cntrace/__init__.py",
+      "sha256": "8c0f16584d824d4c3dfe9e24eacc00723c3a006585380f781e09784b04ac2ae0"
+    },
+    {
+      "path": "src/cntrace/cli.py",
+      "sha256": "800562b946edbc25d19530a2ac15398479eb8c7bef7480acb0e72caf6beed43b"
+    },
+    {
+      "path": "src/cntrace/core.py",
+      "sha256": "dea7e323746fa012bdc4d3ecb3377ecb401f65a273b91c80c6f1294ac2ffdde9"
+    },
+    {
+      "path": "tests/conftest.py",
+      "sha256": "7b6823868e1a5c389b068a89268270472fbfae259b8c1235ca61c7da30158034"
+    },
+    {
+      "path": "tests/test_consistency.py",
+      "sha256": "2f395dc63bacc4556430119b048aa18322174d0922b217b6a16e76b9fb021a07"
+    },
+    {
+      "path": "tests/test_integration.py",
+      "sha256": "5726ec87140bd699df4026a5da1b5ed79f2c1021cc5ded5ca4cebad63a2a5292"
+    },
+    {
+      "path": "tests/test_phase2.py",
+      "sha256": "c647dadbef02597dfcafaa35056ccf807b98bac46946dbf9a0c541b8e8607882"
+    }
+  ],
+  "documentation_and_examples_updated_after_validation": true,
+  "limits": [
+    "Existing Python, uv, curl and OS Vision prerequisites reused; not a new OS or cross-platform test.",
+    "OCR candidates are never counted as verified.",
+    "No general PDF accuracy or judicial authenticity claim."
+  ]
+}

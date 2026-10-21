@@ -1,0 +1,951 @@
+{
+  "schema_version": 2,
+  "document": {
+    "filename": "contract.pdf",
+    "sha256": "7424358988cdb8f415e892330c3564ff9fe7ffa2f9dea9938ae1e809b118c968",
+    "hash_purpose": "byte_consistency_only_not_judicial_authenticity",
+    "page_count": 3
+  },
+  "parser": {
+    "tool_version": "0.2.0",
+    "versions": {
+      "docling-slim": "2.141.0",
+      "docling-core": "2.103.1",
+      "docling-parse": "7.22.3",
+      "docling-ibm-models": "4.0.3",
+      "torch": "2.14.1",
+      "transformers": "5.20.2",
+      "pypdfium2": "5.14.0",
+      "markdown-it-py": "4.2.0",
+      "opencv-python-headless": "4.14.0.94"
+    },
+    "models_sha256": "786568d018bc1a416c3122db1a5f3623dbf210047b14ccf88eb8aa13f1a13146",
+    "ocr": "off",
+    "device": "cpu",
+    "threads": 2,
+    "table_mode": "accurate",
+    "remote_services": false,
+    "external_plugins": false,
+    "normalization": "remove_whitespace_only",
+    "export_labels": "all_including_page_furniture",
+    "export_layers": "all",
+    "ocr_options": null
+  },
+  "config_sha256": "d7d474768fee1adcd1df3a183e7b4cb14ecdce6606e5151121f44d29f7987476",
+  "models": [
+    {
+      "repo": "docling-project/docling-layout-heron",
+      "revision": "8f39ad3c0b4c58e9c2d2c84a38465abf757272d8"
+    },
+    {
+      "repo": "docling-project/docling-models",
+      "revision": "fc0f2d45e2218ea24bce5045f58a389aed16dc23"
+    }
+  ],
+  "pages": [
+    {
+      "pdf_page": 1,
+      "width": 595.2755737304688,
+      "height": 841.8897705078125,
+      "units": "pt",
+      "printed_page_label": null,
+      "printed_label_status": "not_found",
+      "printed_label_candidates": [],
+      "printed_label_method": "native_footer_text_explicit_di_ye_pattern",
+      "pdf_page_label": null,
+      "native_text_available": true
+    },
+    {
+      "pdf_page": 2,
+      "width": 595.2755737304688,
+      "height": 841.8897705078125,
+      "units": "pt",
+      "printed_page_label": "1",
+      "printed_label_status": "recognized",
+      "printed_label_candidates": [
+        "1"
+      ],
+      "printed_label_method": "native_footer_text_explicit_di_ye_pattern",
+      "pdf_page_label": null,
+      "native_text_available": true
+    },
+    {
+      "pdf_page": 3,
+      "width": 595.2755737304688,
+      "height": 841.8897705078125,
+      "units": "pt",
+      "printed_page_label": "2",
+      "printed_label_status": "recognized",
+      "printed_label_candidates": [
+        "2"
+      ],
+      "printed_label_method": "native_footer_text_explicit_di_ye_pattern",
+      "pdf_page_label": null,
+      "native_text_available": true
+    }
+  ],
+  "markdown_sha256": "02a53a74ae014dd9df60b702bdb01bebe80682f4cab18948cfbb9b4a1dfba0d7",
+  "records": [
+    {
+      "id": "c088d0718d9b0e2fad1508dc",
+      "ordinal": 1,
+      "markdown_text": "## 设备采购合同（自制测试样本）",
+      "markdown_sha256": "85d567c01ba0a0f7370b6775679aba133c783987b9eec89a2a7e780ad32e7095",
+      "source_binding_sha256": "69840fc0da98ec28d26fdda75e82214394e85658fd0aec518920fea763b87526",
+      "markdown_range": [
+        129,
+        146
+      ],
+      "range_unit": "unicode_codepoint_start_inclusive_end_exclusive",
+      "status": "verified",
+      "serialization_check": {
+        "status": "matched",
+        "method": "markdown_visible_text_exact_except_whitespace"
+      },
+      "sources": [
+        {
+          "docling_ref": "#/texts/0",
+          "label": "section_header",
+          "text_origin": "native_pdf_text",
+          "source_id": "#/texts/0/prov/0",
+          "text": "设备采购合同（自制测试样本）",
+          "raw_parser_text": "设备采购合同（自制测试样本）",
+          "locations": [
+            {
+              "pdf_page": 1,
+              "bbox": [
+                80.0,
+                127.2298,
+                360.0,
+                143.88889
+              ],
+              "coord_origin": "TOPLEFT",
+              "units": "pt",
+              "granularity": "text_block",
+              "parser_charspan": [
+                0,
+                14
+              ]
+            }
+          ],
+          "reason": null,
+          "verification": {
+            "status": "verified",
+            "method": "native_region_exact_except_whitespace",
+            "region_text": "设备采购合同（自制测试样本）"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6958fc24d536b82031cc45e4",
+      "ordinal": 2,
+      "markdown_text": "所有主体与交易均为虚构，仅用于程序测试。",
+      "markdown_sha256": "1571c627b9d8a017d0587f49d06daed1968efa7dca1c9311f04f2f80ab0d1377",
+      "source_binding_sha256": "a2d30c0e117796b33893146724c040b286e92af0f359acb8e6e6b5d3120d3da9",
+      "markdown_range": [
+        233,
+        253
+      ],
+      "range_unit": "unicode_codepoint_start_inclusive_end_exclusive",
+      "status": "verified",
+      "serialization_check": {
+        "status": "matched",
+        "method": "markdown_visible_text_exact_except_whitespace"
+      },
+      "sources": [
+        {
+          "docling_ref": "#/texts/1",
+          "label": "text",
+          "text_origin": "native_pdf_text",
+          "source_id": "#/texts/1/prov/0",
+          "text": "所有主体与交易均为虚构，仅用于程序测试。",
+          "raw_parser_text": "所有主体与交易均为虚构，仅用于程序测试。",
+          "locations": [
+            {
+              "pdf_page": 1,
+              "bbox": [
+                80.0,
+                188.0938,
+                320.0,
+                198.08925
+              ],
+              "coord_origin": "TOPLEFT",
+              "units": "pt",
+              "granularity": "text_block",
+              "parser_charspan": [
+                0,
+                20
+              ]
+            }
+          ],
+          "reason": null,
+          "verification": {
+            "status": "verified",
+            "method": "native_region_exact_except_whitespace",
+            "region_text": "所有主体与交易均为虚构，仅用于程序测试。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "718a55e73c6e22d2071ae52e",
+      "ordinal": 3,
+      "markdown_text": "测试编号：HT-001",
+      "markdown_sha256": "80ee9138c5b4e37d07dbb00baefe2dc7dabea6d647af5b3d2bd021cf2b60b5a1",
+      "source_binding_sha256": "061144d23a3904b705da98c6cbd949a9c3e693e8a3f190b92527d40d8ab2b213",
+      "markdown_range": [
+        340,
+        351
+      ],
+      "range_unit": "unicode_codepoint_start_inclusive_end_exclusive",
+      "status": "verified",
+      "serialization_check": {
+        "status": "matched",
+        "method": "markdown_visible_text_exact_except_whitespace"
+      },
+      "sources": [
+        {
+          "docling_ref": "#/texts/2",
+          "label": "text",
+          "text_origin": "native_pdf_text",
+          "source_id": "#/texts/2/prov/0",
+          "text": "测试编号：HT-001",
+          "raw_parser_text": "测试编号：HT-001",
+          "locations": [
+            {
+              "pdf_page": 1,
+              "bbox": [
+                80.0,
+                233.0938,
+                180.068,
+                243.08925
+              ],
+              "coord_origin": "TOPLEFT",
+              "units": "pt",
+              "granularity": "text_block",
+              "parser_charspan": [
+                0,
+                11
+              ]
+            }
+          ],
+          "reason": null,
+          "verification": {
+            "status": "verified",
+            "method": "native_region_exact_except_whitespace",
+            "region_text": "测试编号：HT-001"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a469534d42589012f1401a17",
+      "ordinal": 4,
+      "markdown_text": "## 设备采购合同",
+      "markdown_sha256": "cc92dc8c76c17f1e0be91acb6c91a7bae6e67cbd07ca66a8092dab7d92067526",
+      "source_binding_sha256": "74e56c0639692bf5a9fd4407d33be5b3244bfcf896d27f71f0d844f886db35dd",
+      "markdown_range": [
+        438,
+        447
+      ],
+      "range_unit": "unicode_codepoint_start_inclusive_end_exclusive",
+      "status": "verified",
+      "serialization_check": {
+        "status": "matched",
+        "method": "markdown_visible_text_exact_except_whitespace"
+      },
+      "sources": [
+        {
+          "docling_ref": "#/texts/3",
+          "label": "section_header",
+          "text_origin": "native_pdf_text",
+          "source_id": "#/texts/3/prov/0",
+          "text": "设备采购合同",
+          "raw_parser_text": "设备采购合同",
+          "locations": [
+            {
+              "pdf_page": 2,
+              "bbox": [
+                70.0,
+                68.6958,
+                178.0,
+                83.68898
+              ],
+              "coord_origin": "TOPLEFT",
+              "units": "pt",
+              "granularity": "text_block",
+              "parser_charspan": [
+                0,
+                6
+              ]
+            }
+          ],
+          "reason": null,
+          "verification": {
+            "status": "verified",
+            "method": "native_region_exact_except_whitespace",
+            "region_text": "设备采购合同"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7d54717735aab1611c788e33",
+      "ordinal": 5,
+      "markdown_text": "出卖人：虚构甲方测试单位\n\n买受人：虚构乙方测试单位",
+      "markdown_sha256": "014426f97e52f4fa7426790ab876d74e72ec953cb8d3b9c9f814dbc3d5f7dfab",
+      "source_binding_sha256": "7a491f190a5a12bbe3b58eb02a5d3c672ceba9eb144aa884d85630b439fdf68c",
+      "markdown_range": [
+        534,
+        560
+      ],
+      "range_unit": "unicode_codepoint_start_inclusive_end_exclusive",
+      "status": "verified",
+      "serialization_check": {
+        "status": "matched",
+        "method": "markdown_visible_text_exact_except_whitespace"
+      },
+      "sources": [
+        {
+          "docling_ref": "#/texts/4",
+          "label": "text",
+          "text_origin": "native_pdf_text",
+          "source_id": "#/texts/4/prov/0",
+          "text": "出卖人：虚构甲方测试单位",
+          "raw_parser_text": "出卖人：虚构甲方测试单位",
+          "locations": [
+            {
+              "pdf_page": 2,
+              "bbox": [
+                70.0,
+                128.0938,
+                214.0,
+                138.08925
+              ],
+              "coord_origin": "TOPLEFT",
+              "units": "pt",
+              "granularity": "text_block",
+              "parser_charspan": [
+                0,
+                12
+              ]
+            }
+          ],
+          "reason": null,
+          "verification": {
+            "status": "verified",
+            "method": "native_region_exact_except_whitespace",
+            "region_text": "出卖人：虚构甲方测试单位"
+          }
+        },
+        {
+          "docling_ref": "#/texts/5",
+          "label": "text",
+          "text_origin": "native_pdf_text",
+          "source_id": "#/texts/5/prov/0",
+          "text": "买受人：虚构乙方测试单位",
+          "raw_parser_text": "买受人：虚构乙方测试单位",
+          "locations": [
+            {
+              "pdf_page": 2,
+              "bbox": [
+                70.0,
+                163.0938,
+                214.0,
+                173.08925
+              ],
+              "coord_origin": "TOPLEFT",
+              "units": "pt",
+              "granularity": "text_block",
+              "parser_charspan": [
+                0,
+                12
+              ]
+            }
+          ],
+          "reason": null,
+          "verification": {
+            "status": "verified",
+            "method": "native_region_exact_except_whitespace",
+            "region_text": "买受人：虚构乙方测试单位"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6f2e8893812bd5791bf4f824",
+      "ordinal": 6,
+      "markdown_text": "第一条 合同价款为人民币100,000.00元。",
+      "markdown_sha256": "d609161d678320cc50d0aacfe0a6c994516fb83d1dae4461bec2845ab8b9b677",
+      "source_binding_sha256": "70e2a669db682e93bb1e86a174b5da9544a4f310fa113d942f8fc05a056f3b6e",
+      "markdown_range": [
+        647,
+        671
+      ],
+      "range_unit": "unicode_codepoint_start_inclusive_end_exclusive",
+      "status": "verified",
+      "serialization_check": {
+        "status": "matched",
+        "method": "markdown_visible_text_exact_except_whitespace"
+      },
+      "sources": [
+        {
+          "docling_ref": "#/texts/6",
+          "label": "text",
+          "text_origin": "native_pdf_text",
+          "source_id": "#/texts/6/prov/0",
+          "text": "第一条 合同价款为人民币100,000.00元。",
+          "raw_parser_text": "第一条 合同价款为人民币100,000.00元。",
+          "locations": [
+            {
+              "pdf_page": 2,
+              "bbox": [
+                70.0,
+                223.0938,
+                288.64,
+                233.08925
+              ],
+              "coord_origin": "TOPLEFT",
+              "units": "pt",
+              "granularity": "text_block",
+              "parser_charspan": [
+                0,
+                24
+              ]
+            }
+          ],
+          "reason": null,
+          "verification": {
+            "status": "verified",
+            "method": "native_region_exact_except_whitespace",
+            "region_text": "第一条 合同价款为人民币100,000.00元。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "92619421668a49b836f6a659",
+      "ordinal": 7,
+      "markdown_text": "第二条 首期支付人民币50,000.00元。",
+      "markdown_sha256": "059f56fb2917cb61835b0939101ab2f5f8fae7e699c9169625b7e715372f6d5e",
+      "source_binding_sha256": "a5c164e9b229b8751a8f42c33abd66b3e1beda37e1da24a2a6e31066ce1b18ca",
+      "markdown_range": [
+        758,
+        780
+      ],
+      "range_unit": "unicode_codepoint_start_inclusive_end_exclusive",
+      "status": "verified",
+      "serialization_check": {
+        "status": "matched",
+        "method": "markdown_visible_text_exact_except_whitespace"
+      },
+      "sources": [
+        {
+          "docling_ref": "#/texts/7",
+          "label": "text",
+          "text_origin": "native_pdf_text",
+          "source_id": "#/texts/7/prov/0",
+          "text": "第二条 首期支付人民币50,000.00元。",
+          "raw_parser_text": "第二条 首期支付人民币50,000.00元。",
+          "locations": [
+            {
+              "pdf_page": 2,
+              "bbox": [
+                70.0,
+                278.0938,
+                269.98,
+                288.08925
+              ],
+              "coord_origin": "TOPLEFT",
+              "units": "pt",
+              "granularity": "text_block",
+              "parser_charspan": [
+                0,
+                22
+              ]
+            }
+          ],
+          "reason": null,
+          "verification": {
+            "status": "verified",
+            "method": "native_region_exact_except_whitespace",
+            "region_text": "第二条 首期支付人民币50,000.00元。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "30d022e39aaa6f9026823782",
+      "ordinal": 8,
+      "markdown_text": "双方应当保存交付记录。",
+      "markdown_sha256": "f883ace1e3d4befb8a8d7aeeb46551cb412f3c0e170ba46d6f626b055dabe333",
+      "source_binding_sha256": "461407bfd1742f645905ee2d5a424cd57aaa05e4c8001f7082810a5a878c6623",
+      "markdown_range": [
+        867,
+        878
+      ],
+      "range_unit": "unicode_codepoint_start_inclusive_end_exclusive",
+      "status": "verified",
+      "serialization_check": {
+        "status": "matched",
+        "method": "markdown_visible_text_exact_except_whitespace"
+      },
+      "sources": [
+        {
+          "docling_ref": "#/texts/8",
+          "label": "text",
+          "text_origin": "native_pdf_text",
+          "source_id": "#/texts/8/prov/0",
+          "text": "双方应当保存交付记录。",
+          "raw_parser_text": "双方应当保存交付记录。",
+          "locations": [
+            {
+              "pdf_page": 2,
+              "bbox": [
+                70.0,
+                333.0938,
+                202.0,
+                343.08925
+              ],
+              "coord_origin": "TOPLEFT",
+              "units": "pt",
+              "granularity": "text_block",
+              "parser_charspan": [
+                0,
+                11
+              ]
+            }
+          ],
+          "reason": null,
+          "verification": {
+            "status": "verified",
+            "method": "native_region_exact_except_whitespace",
+            "region_text": "双方应当保存交付记录。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "05c7934a926f354492ffb550",
+      "ordinal": 9,
+      "markdown_text": "第三条 设备交付地点为测试仓库。",
+      "markdown_sha256": "0138a3f28fef18298ee0a2089294d4013e813768d317fea66db799d198cbbb4d",
+      "source_binding_sha256": "e58e15385297b58220109aea5b31cadb9c6da0cdc1ce86be968a9b09115afa99",
+      "markdown_range": [
+        965,
+        981
+      ],
+      "range_unit": "unicode_codepoint_start_inclusive_end_exclusive",
+      "status": "verified",
+      "serialization_check": {
+        "status": "matched",
+        "method": "markdown_visible_text_exact_except_whitespace"
+      },
+      "sources": [
+        {
+          "docling_ref": "#/texts/9",
+          "label": "text",
+          "text_origin": "native_pdf_text",
+          "source_id": "#/texts/9/prov/0",
+          "text": "第三条 设备交付地点为测试仓库。",
+          "raw_parser_text": "第三条 设备交付地点为测试仓库。",
+          "locations": [
+            {
+              "pdf_page": 2,
+              "bbox": [
+                70.0,
+                388.0938,
+                252.688,
+                398.08925
+              ],
+              "coord_origin": "TOPLEFT",
+              "units": "pt",
+              "granularity": "text_block",
+              "parser_charspan": [
+                0,
+                16
+              ]
+            }
+          ],
+          "reason": null,
+          "verification": {
+            "status": "verified",
+            "method": "native_region_exact_except_whitespace",
+            "region_text": "第三条 设备交付地点为测试仓库。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7a55e2d236bfe3acf9d88416",
+      "ordinal": 10,
+      "markdown_text": "第 1 页",
+      "markdown_sha256": "ded61ffd4d21a88f8c88ec7a6cbf5f7589ebdecae7f79adb12b2d14d6cca950b",
+      "source_binding_sha256": "c8a11784c2334dde13d6cb9b0877adfc0be3f4f7677420e9c6bd564d5f1f9923",
+      "markdown_range": [
+        1068,
+        1073
+      ],
+      "range_unit": "unicode_codepoint_start_inclusive_end_exclusive",
+      "status": "verified",
+      "serialization_check": {
+        "status": "matched",
+        "method": "markdown_visible_text_exact_except_whitespace"
+      },
+      "sources": [
+        {
+          "docling_ref": "#/texts/10",
+          "label": "page_footer",
+          "text_origin": "native_pdf_text",
+          "source_id": "#/texts/10/prov/0",
+          "text": "第 1 页",
+          "raw_parser_text": "第 1 页",
+          "locations": [
+            {
+              "pdf_page": 2,
+              "bbox": [
+                266.0,
+                801.5598,
+                296.03,
+                809.88935
+              ],
+              "coord_origin": "TOPLEFT",
+              "units": "pt",
+              "granularity": "text_block",
+              "parser_charspan": [
+                0,
+                5
+              ]
+            }
+          ],
+          "reason": null,
+          "verification": {
+            "status": "verified",
+            "method": "native_region_exact_except_whitespace",
+            "region_text": "第 1 页"
+          }
+        }
+      ]
+    },
+    {
+      "id": "81f1c8e0b06f712dc318569b",
+      "ordinal": 11,
+      "markdown_text": "## 设备采购合同（续）",
+      "markdown_sha256": "3270e25159bd47536acd9846c85009705b4ec4a6afe6d49c4155f495b32ed6df",
+      "source_binding_sha256": "b40b93273231a1176dfafddbf92adf6ae966adeaba460d182ac71338dc314eb1",
+      "markdown_range": [
+        1160,
+        1172
+      ],
+      "range_unit": "unicode_codepoint_start_inclusive_end_exclusive",
+      "status": "verified",
+      "serialization_check": {
+        "status": "matched",
+        "method": "markdown_visible_text_exact_except_whitespace"
+      },
+      "sources": [
+        {
+          "docling_ref": "#/texts/11",
+          "label": "section_header",
+          "text_origin": "native_pdf_text",
+          "source_id": "#/texts/11/prov/0",
+          "text": "设备采购合同（续）",
+          "raw_parser_text": "设备采购合同（续）",
+          "locations": [
+            {
+              "pdf_page": 3,
+              "bbox": [
+                70.0,
+                68.6958,
+                232.0,
+                83.68898
+              ],
+              "coord_origin": "TOPLEFT",
+              "units": "pt",
+              "granularity": "text_block",
+              "parser_charspan": [
+                0,
+                9
+              ]
+            }
+          ],
+          "reason": null,
+          "verification": {
+            "status": "verified",
+            "method": "native_region_exact_except_whitespace",
+            "region_text": "设备采购合同（续）"
+          }
+        }
+      ]
+    },
+    {
+      "id": "e697622adbd6d8e6bbc166c8",
+      "ordinal": 12,
+      "markdown_text": "第四条 验收后支付人民币50,000.00元。",
+      "markdown_sha256": "afbcc995ea600cf9778af60b56b208c8c1c800d291cb550c3204f2fa733624e7",
+      "source_binding_sha256": "c1a2f103ff484b64b296a53376c2447f848a3a2998a4650d4991a2dd9b0264f3",
+      "markdown_range": [
+        1259,
+        1282
+      ],
+      "range_unit": "unicode_codepoint_start_inclusive_end_exclusive",
+      "status": "verified",
+      "serialization_check": {
+        "status": "matched",
+        "method": "markdown_visible_text_exact_except_whitespace"
+      },
+      "sources": [
+        {
+          "docling_ref": "#/texts/12",
+          "label": "text",
+          "text_origin": "native_pdf_text",
+          "source_id": "#/texts/12/prov/0",
+          "text": "第四条 验收后支付人民币50,000.00元。",
+          "raw_parser_text": "第四条 验收后支付人民币50,000.00元。",
+          "locations": [
+            {
+              "pdf_page": 3,
+              "bbox": [
+                70.0,
+                143.0938,
+                281.98,
+                153.08925
+              ],
+              "coord_origin": "TOPLEFT",
+              "units": "pt",
+              "granularity": "text_block",
+              "parser_charspan": [
+                0,
+                23
+              ]
+            }
+          ],
+          "reason": null,
+          "verification": {
+            "status": "verified",
+            "method": "native_region_exact_except_whitespace",
+            "region_text": "第四条 验收后支付人民币50,000.00元。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "1bdbd4b589d796acfa28836b",
+      "ordinal": 13,
+      "markdown_text": "双方应当保存交付记录。",
+      "markdown_sha256": "f883ace1e3d4befb8a8d7aeeb46551cb412f3c0e170ba46d6f626b055dabe333",
+      "source_binding_sha256": "004faa6c53a29693f787437c101c7151cc8dde90ae1cb4a9fc45eb896507ec6c",
+      "markdown_range": [
+        1369,
+        1380
+      ],
+      "range_unit": "unicode_codepoint_start_inclusive_end_exclusive",
+      "status": "verified",
+      "serialization_check": {
+        "status": "matched",
+        "method": "markdown_visible_text_exact_except_whitespace"
+      },
+      "sources": [
+        {
+          "docling_ref": "#/texts/13",
+          "label": "text",
+          "text_origin": "native_pdf_text",
+          "source_id": "#/texts/13/prov/0",
+          "text": "双方应当保存交付记录。",
+          "raw_parser_text": "双方应当保存交付记录。",
+          "locations": [
+            {
+              "pdf_page": 3,
+              "bbox": [
+                70.0,
+                208.0938,
+                202.0,
+                218.08925
+              ],
+              "coord_origin": "TOPLEFT",
+              "units": "pt",
+              "granularity": "text_block",
+              "parser_charspan": [
+                0,
+                11
+              ]
+            }
+          ],
+          "reason": null,
+          "verification": {
+            "status": "verified",
+            "method": "native_region_exact_except_whitespace",
+            "region_text": "双方应当保存交付记录。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "aafabd48d3d7995f982e58a4",
+      "ordinal": 14,
+      "markdown_text": "第五条 保修期限为十二个月。",
+      "markdown_sha256": "10a0caac793f1a3db3cd4fd5d995d9415d92180fdbecf3471feb1797152f34ac",
+      "source_binding_sha256": "59237d34c219c09541acebe556cda210f791dc6983c653e03c22aa42ba91e9a1",
+      "markdown_range": [
+        1467,
+        1481
+      ],
+      "range_unit": "unicode_codepoint_start_inclusive_end_exclusive",
+      "status": "verified",
+      "serialization_check": {
+        "status": "matched",
+        "method": "markdown_visible_text_exact_except_whitespace"
+      },
+      "sources": [
+        {
+          "docling_ref": "#/texts/14",
+          "label": "text",
+          "text_origin": "native_pdf_text",
+          "source_id": "#/texts/14/prov/0",
+          "text": "第五条 保修期限为十二个月。",
+          "raw_parser_text": "第五条 保修期限为十二个月。",
+          "locations": [
+            {
+              "pdf_page": 3,
+              "bbox": [
+                70.0,
+                273.0938,
+                228.688,
+                283.08925
+              ],
+              "coord_origin": "TOPLEFT",
+              "units": "pt",
+              "granularity": "text_block",
+              "parser_charspan": [
+                0,
+                14
+              ]
+            }
+          ],
+          "reason": null,
+          "verification": {
+            "status": "verified",
+            "method": "native_region_exact_except_whitespace",
+            "region_text": "第五条 保修期限为十二个月。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "efd4a17cbcabbcf13cd3595a",
+      "ordinal": 15,
+      "markdown_text": "签署栏仅为测试文字，不含真实签名或印章。",
+      "markdown_sha256": "b7dba949d41475f9f0c49a1e1650c4f879b812a7bed19d3e911a950b48c7fd4e",
+      "source_binding_sha256": "b2bbef5199abc1fc6bdd385832188dd913db9f358a9093a03f4f4aed35f24dd7",
+      "markdown_range": [
+        1568,
+        1588
+      ],
+      "range_unit": "unicode_codepoint_start_inclusive_end_exclusive",
+      "status": "verified",
+      "serialization_check": {
+        "status": "matched",
+        "method": "markdown_visible_text_exact_except_whitespace"
+      },
+      "sources": [
+        {
+          "docling_ref": "#/texts/15",
+          "label": "text",
+          "text_origin": "native_pdf_text",
+          "source_id": "#/texts/15/prov/0",
+          "text": "签署栏仅为测试文字，不含真实签名或印章。",
+          "raw_parser_text": "签署栏仅为测试文字，不含真实签名或印章。",
+          "locations": [
+            {
+              "pdf_page": 3,
+              "bbox": [
+                70.0,
+                393.0938,
+                310.0,
+                403.08925
+              ],
+              "coord_origin": "TOPLEFT",
+              "units": "pt",
+              "granularity": "text_block",
+              "parser_charspan": [
+                0,
+                20
+              ]
+            }
+          ],
+          "reason": null,
+          "verification": {
+            "status": "verified",
+            "method": "native_region_exact_except_whitespace",
+            "region_text": "签署栏仅为测试文字，不含真实签名或印章。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d60442685fb90ae9b27ee9d2",
+      "ordinal": 16,
+      "markdown_text": "第 2 页",
+      "markdown_sha256": "f0abcd127cd9f6687504714364f6397d140df598a4615daad4fb1dc736cd60bd",
+      "source_binding_sha256": "7841b97ef0b5b434ae288cc2166ef56d54a92688a9f098b67c28e04a54af047f",
+      "markdown_range": [
+        1675,
+        1680
+      ],
+      "range_unit": "unicode_codepoint_start_inclusive_end_exclusive",
+      "status": "verified",
+      "serialization_check": {
+        "status": "matched",
+        "method": "markdown_visible_text_exact_except_whitespace"
+      },
+      "sources": [
+        {
+          "docling_ref": "#/texts/16",
+          "label": "page_footer",
+          "text_origin": "native_pdf_text",
+          "source_id": "#/texts/16/prov/0",
+          "text": "第 2 页",
+          "raw_parser_text": "第 2 页",
+          "locations": [
+            {
+              "pdf_page": 3,
+              "bbox": [
+                266.0,
+                801.5598,
+                296.03,
+                809.88935
+              ],
+              "coord_origin": "TOPLEFT",
+              "units": "pt",
+              "granularity": "text_block",
+              "parser_charspan": [
+                0,
+                5
+              ]
+            }
+          ],
+          "reason": null,
+          "verification": {
+            "status": "verified",
+            "method": "native_region_exact_except_whitespace",
+            "region_text": "第 2 页"
+          }
+        }
+      ]
+    }
+  ],
+  "conversion": {
+    "status": "success",
+    "errors": [],
+    "elapsed_seconds": 31.742
+  },
+  "limitations": [
+    "ocr_candidates_require_visual_review",
+    "no_automatic_table_stitching",
+    "printed_labels_only_explicit_footer_pattern",
+    "region_geometry_not_character_geometry",
+    "ids_stable_only_for_identical_input_and_locked_environment",
+    "hashes_are_not_signatures_or_authenticity_proof"
+  ]
+}

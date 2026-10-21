@@ -1,0 +1,3975 @@
+{
+  "schema_version": 2,
+  "origin": "wholly synthetic; drawing-time truth",
+  "font_sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+  "documents": [
+    {
+      "pdf": "contract.pdf",
+      "sha256": "7424358988cdb8f415e892330c3564ff9fe7ffa2f9dea9938ae1e809b118c968",
+      "pages": [
+        {
+          "pdf_page": 1,
+          "printed_page_label": null,
+          "text_origin": "native"
+        },
+        {
+          "pdf_page": 2,
+          "printed_page_label": "1",
+          "text_origin": "native"
+        },
+        {
+          "pdf_page": 3,
+          "printed_page_label": "2",
+          "text_origin": "native"
+        }
+      ],
+      "checkpoints": [
+        {
+          "id": "cover-title",
+          "text": "设备采购合同（自制测试样本）",
+          "pdf_page": 1,
+          "bbox": [
+            78,
+            118.89,
+            362.0,
+            151.89
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "cover-note",
+          "text": "所有主体与交易均为虚构，仅用于程序测试。",
+          "pdf_page": 1,
+          "bbox": [
+            78,
+            181.89,
+            322.0,
+            204.09
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "cover-number",
+          "text": "测试编号：HT-001",
+          "pdf_page": 1,
+          "bbox": [
+            78,
+            226.89,
+            182.068,
+            249.09
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "body-title",
+          "text": "设备采购合同",
+          "pdf_page": 2,
+          "bbox": [
+            68,
+            60.89,
+            180.0,
+            91.19
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "seller",
+          "text": "出卖人：虚构甲方测试单位",
+          "pdf_page": 2,
+          "bbox": [
+            68,
+            121.89,
+            216.0,
+            144.09
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "buyer",
+          "text": "买受人：虚构乙方测试单位",
+          "pdf_page": 2,
+          "bbox": [
+            68,
+            156.89,
+            216.0,
+            179.09
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "price",
+          "text": "第一条 合同价款为人民币100,000.00元。",
+          "pdf_page": 2,
+          "bbox": [
+            68,
+            216.89,
+            290.64,
+            239.09
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "payment",
+          "text": "第二条 首期支付人民币50,000.00元。",
+          "pdf_page": 2,
+          "bbox": [
+            68,
+            271.89,
+            271.98,
+            294.09
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "repeat-1",
+          "text": "双方应当保存交付记录。",
+          "pdf_page": 2,
+          "bbox": [
+            68,
+            326.89,
+            204.0,
+            349.09
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "delivery",
+          "text": "第三条 设备交付地点为测试仓库。",
+          "pdf_page": 2,
+          "bbox": [
+            68,
+            381.89,
+            254.688,
+            404.09
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "footer-2",
+          "text": "第 1 页",
+          "pdf_page": 2,
+          "bbox": [
+            264,
+            795.89,
+            298.03,
+            815.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "cont-title",
+          "text": "设备采购合同（续）",
+          "pdf_page": 3,
+          "bbox": [
+            68,
+            60.89,
+            234.0,
+            91.19
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "balance",
+          "text": "第四条 验收后支付人民币50,000.00元。",
+          "pdf_page": 3,
+          "bbox": [
+            68,
+            136.89,
+            283.98,
+            159.09
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "repeat-2",
+          "text": "双方应当保存交付记录。",
+          "pdf_page": 3,
+          "bbox": [
+            68,
+            201.89,
+            204.0,
+            224.09
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "warranty",
+          "text": "第五条 保修期限为十二个月。",
+          "pdf_page": 3,
+          "bbox": [
+            68,
+            266.89,
+            230.688,
+            289.09
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "sign",
+          "text": "签署栏仅为测试文字，不含真实签名或印章。",
+          "pdf_page": 3,
+          "bbox": [
+            68,
+            386.89,
+            312.0,
+            409.09
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "footer-3",
+          "text": "第 2 页",
+          "pdf_page": 3,
+          "bbox": [
+            264,
+            795.89,
+            298.03,
+            815.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        }
+      ],
+      "scenario": "合同：页码偏移和重复内容",
+      "ocr": "off",
+      "acceptance": {
+        "min_native_verified_coverage": 1,
+        "min_ocr_candidate_coverage": 0
+      }
+    },
+    {
+      "pdf": "settlement.pdf",
+      "sha256": "365ef91d72e01aa9b26470d218527b9b24b8ff7f5aa7d84a4781ecb2f2ccb4a8",
+      "pages": [
+        {
+          "pdf_page": 1,
+          "printed_page_label": "7",
+          "text_origin": "native"
+        },
+        {
+          "pdf_page": 2,
+          "printed_page_label": "8",
+          "text_origin": "native"
+        }
+      ],
+      "checkpoints": [
+        {
+          "id": "table-title",
+          "text": "工程结算表（自制测试样本）",
+          "pdf_page": 1,
+          "bbox": [
+            63,
+            60.89,
+            301.0,
+            91.19
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "table-note",
+          "text": "单位：元。所有项目与金额均为测试数据。",
+          "pdf_page": 1,
+          "bbox": [
+            63,
+            111.89,
+            295.0,
+            134.09
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "h1",
+          "text": "序号",
+          "pdf_page": 1,
+          "bbox": [
+            50,
+            199.89,
+            74.0,
+            219.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "h2",
+          "text": "项目名称",
+          "pdf_page": 1,
+          "bbox": [
+            105,
+            199.89,
+            149.0,
+            219.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "h3",
+          "text": "数量",
+          "pdf_page": 1,
+          "bbox": [
+            305,
+            199.89,
+            329.0,
+            219.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "h4",
+          "text": "金额",
+          "pdf_page": 1,
+          "bbox": [
+            400,
+            199.89,
+            424.0,
+            219.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r1n",
+          "text": "01",
+          "pdf_page": 1,
+          "bbox": [
+            50,
+            254.89,
+            65.1,
+            274.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r1p",
+          "text": "基础施工",
+          "pdf_page": 1,
+          "bbox": [
+            105,
+            254.89,
+            149.0,
+            274.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r1q",
+          "text": "10",
+          "pdf_page": 1,
+          "bbox": [
+            305,
+            254.89,
+            320.1,
+            274.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r1a",
+          "text": "50,000.00",
+          "pdf_page": 1,
+          "bbox": [
+            400,
+            254.89,
+            448.41,
+            274.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r2n",
+          "text": "02",
+          "pdf_page": 1,
+          "bbox": [
+            50,
+            309.89,
+            65.1,
+            329.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r2p",
+          "text": "设备安装",
+          "pdf_page": 1,
+          "bbox": [
+            105,
+            309.89,
+            149.0,
+            329.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r2q",
+          "text": "20",
+          "pdf_page": 1,
+          "bbox": [
+            305,
+            309.89,
+            320.1,
+            329.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r2a",
+          "text": "50,000.00",
+          "pdf_page": 1,
+          "bbox": [
+            400,
+            309.89,
+            448.41,
+            329.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r3n",
+          "text": "03",
+          "pdf_page": 1,
+          "bbox": [
+            50,
+            364.89,
+            65.1,
+            384.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r3p",
+          "text": "跨页项目：钢构件制作",
+          "pdf_page": 1,
+          "bbox": [
+            105,
+            364.89,
+            209.0,
+            384.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r3q",
+          "text": "30",
+          "pdf_page": 1,
+          "bbox": [
+            305,
+            364.89,
+            320.1,
+            384.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r3a",
+          "text": "80,000.00",
+          "pdf_page": 1,
+          "bbox": [
+            400,
+            364.89,
+            448.41,
+            384.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "split-note",
+          "text": "记录03的说明在下一页继续，尚未形成独立新项目。",
+          "pdf_page": 1,
+          "bbox": [
+            63,
+            447.89,
+            321.21,
+            468.74
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "footer-1",
+          "text": "第 7 页",
+          "pdf_page": 1,
+          "bbox": [
+            264,
+            795.89,
+            298.03,
+            815.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "table-cont",
+          "text": "工程结算表（续页）",
+          "pdf_page": 2,
+          "bbox": [
+            63,
+            60.89,
+            229.0,
+            91.19
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "h1b",
+          "text": "序号",
+          "pdf_page": 2,
+          "bbox": [
+            50,
+            179.89,
+            74.0,
+            199.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "h2b",
+          "text": "项目名称",
+          "pdf_page": 2,
+          "bbox": [
+            105,
+            179.89,
+            149.0,
+            199.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "h3b",
+          "text": "数量",
+          "pdf_page": 2,
+          "bbox": [
+            305,
+            179.89,
+            329.0,
+            199.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "h4b",
+          "text": "金额",
+          "pdf_page": 2,
+          "bbox": [
+            400,
+            179.89,
+            424.0,
+            199.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r3cp",
+          "text": "续：含运输及现场拼装",
+          "pdf_page": 2,
+          "bbox": [
+            105,
+            234.89,
+            209.0,
+            254.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r4n",
+          "text": "04",
+          "pdf_page": 2,
+          "bbox": [
+            50,
+            289.89,
+            65.1,
+            309.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r4p",
+          "text": "现场调试",
+          "pdf_page": 2,
+          "bbox": [
+            105,
+            289.89,
+            149.0,
+            309.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r4q",
+          "text": "5",
+          "pdf_page": 2,
+          "bbox": [
+            305,
+            289.89,
+            314.55,
+            309.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r4a",
+          "text": "20,000.00",
+          "pdf_page": 2,
+          "bbox": [
+            400,
+            289.89,
+            448.41,
+            309.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "sum-n",
+          "text": "合计",
+          "pdf_page": 2,
+          "bbox": [
+            50,
+            344.89,
+            74.0,
+            364.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "sum-p",
+          "text": "测试合计金额",
+          "pdf_page": 2,
+          "bbox": [
+            105,
+            344.89,
+            169.0,
+            364.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "sum-a",
+          "text": "200,000.00",
+          "pdf_page": 2,
+          "bbox": [
+            400,
+            344.89,
+            453.96,
+            364.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "table-end",
+          "text": "本表不对应真实工程，不作为结算或付款凭证。",
+          "pdf_page": 2,
+          "bbox": [
+            63,
+            447.89,
+            298.0,
+            468.74
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "footer-2",
+          "text": "第 8 页",
+          "pdf_page": 2,
+          "bbox": [
+            264,
+            795.89,
+            298.03,
+            815.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        }
+      ],
+      "logical_continuations": [
+        {
+          "from": "r3p",
+          "to": "r3cp",
+          "auto_merge": false
+        }
+      ],
+      "scenario": "两页工程结算表",
+      "ocr": "off",
+      "acceptance": {
+        "min_native_verified_coverage": 1,
+        "min_ocr_candidate_coverage": 0
+      }
+    },
+    {
+      "pdf": "creditors.pdf",
+      "sha256": "876d74dbf6d325c969e98f0e4fd186f34f4cc5de75580847e6d7cb9a6192875d",
+      "pages": [
+        {
+          "pdf_page": 1,
+          "printed_page_label": "11",
+          "text_origin": "native"
+        },
+        {
+          "pdf_page": 2,
+          "printed_page_label": "12",
+          "text_origin": "native"
+        }
+      ],
+      "checkpoints": [
+        {
+          "id": "title-0",
+          "text": "债权申报核对表（虚构测试）",
+          "pdf_page": 1,
+          "bbox": [
+            53,
+            62.89,
+            291.0,
+            93.19
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "note-0",
+          "text": "仅为软件样本，申报金额不代表确认债权。",
+          "pdf_page": 1,
+          "bbox": [
+            53,
+            117.89,
+            266.0,
+            138.74
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-0-0-0",
+          "text": "编号",
+          "pdf_page": 1,
+          "bbox": [
+            44,
+            188.89,
+            68.0,
+            208.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-0-1-0",
+          "text": "债权人",
+          "pdf_page": 1,
+          "bbox": [
+            89,
+            188.89,
+            123.0,
+            208.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-0-2-0",
+          "text": "申报本金",
+          "pdf_page": 1,
+          "bbox": [
+            229,
+            188.89,
+            273.0,
+            208.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-0-3-0",
+          "text": "申报利息",
+          "pdf_page": 1,
+          "bbox": [
+            339,
+            188.89,
+            383.0,
+            208.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-0-4-0",
+          "text": "测试合计",
+          "pdf_page": 1,
+          "bbox": [
+            449,
+            188.89,
+            493.0,
+            208.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-1-0-0",
+          "text": "01",
+          "pdf_page": 1,
+          "bbox": [
+            44,
+            243.89,
+            59.1,
+            263.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-1-1-0",
+          "text": "虚构甲企业",
+          "pdf_page": 1,
+          "bbox": [
+            89,
+            243.89,
+            143.0,
+            263.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-1-2-0",
+          "text": "80,000.00",
+          "pdf_page": 1,
+          "bbox": [
+            229,
+            243.89,
+            277.41,
+            263.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-1-3-0",
+          "text": "1,000.00",
+          "pdf_page": 1,
+          "bbox": [
+            339,
+            243.89,
+            381.86,
+            263.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-1-4-0",
+          "text": "81,000.00",
+          "pdf_page": 1,
+          "bbox": [
+            449,
+            243.89,
+            497.41,
+            263.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-2-0-0",
+          "text": "02",
+          "pdf_page": 1,
+          "bbox": [
+            44,
+            298.89,
+            59.1,
+            318.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-2-1-0",
+          "text": "虚构乙企业",
+          "pdf_page": 1,
+          "bbox": [
+            89,
+            298.89,
+            143.0,
+            318.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-2-2-0",
+          "text": "80,000.00",
+          "pdf_page": 1,
+          "bbox": [
+            229,
+            298.89,
+            277.41,
+            318.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-2-3-0",
+          "text": "2,000.00",
+          "pdf_page": 1,
+          "bbox": [
+            339,
+            298.89,
+            381.86,
+            318.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-2-4-0",
+          "text": "82,000.00",
+          "pdf_page": 1,
+          "bbox": [
+            449,
+            298.89,
+            497.41,
+            318.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-3-0-0",
+          "text": "03",
+          "pdf_page": 1,
+          "bbox": [
+            44,
+            353.89,
+            59.1,
+            373.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-3-1-0",
+          "text": "虚构丙企业",
+          "pdf_page": 1,
+          "bbox": [
+            89,
+            353.89,
+            143.0,
+            373.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-3-2-0",
+          "text": "80,000.00",
+          "pdf_page": 1,
+          "bbox": [
+            229,
+            353.89,
+            277.41,
+            373.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-3-3-0",
+          "text": "3,000.00",
+          "pdf_page": 1,
+          "bbox": [
+            339,
+            353.89,
+            381.86,
+            373.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-3-4-0",
+          "text": "83,000.00",
+          "pdf_page": 1,
+          "bbox": [
+            449,
+            353.89,
+            497.41,
+            373.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "status-0",
+          "text": "状态：待核对；主体、金额均为自制测试数据。",
+          "pdf_page": 1,
+          "bbox": [
+            53,
+            462.89,
+            288.0,
+            483.74
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "footer-1",
+          "text": "第 11 页",
+          "pdf_page": 1,
+          "bbox": [
+            264,
+            795.89,
+            303.58,
+            815.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "title-1",
+          "text": "债权申报核对表（虚构测试）",
+          "pdf_page": 2,
+          "bbox": [
+            53,
+            62.89,
+            291.0,
+            93.19
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "note-1",
+          "text": "仅为软件样本，申报金额不代表确认债权。",
+          "pdf_page": 2,
+          "bbox": [
+            53,
+            117.89,
+            266.0,
+            138.74
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-0-0-0",
+          "text": "编号",
+          "pdf_page": 2,
+          "bbox": [
+            44,
+            188.89,
+            68.0,
+            208.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-0-1-0",
+          "text": "债权人",
+          "pdf_page": 2,
+          "bbox": [
+            89,
+            188.89,
+            123.0,
+            208.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-0-2-0",
+          "text": "申报本金",
+          "pdf_page": 2,
+          "bbox": [
+            229,
+            188.89,
+            273.0,
+            208.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-0-3-0",
+          "text": "申报利息",
+          "pdf_page": 2,
+          "bbox": [
+            339,
+            188.89,
+            383.0,
+            208.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-0-4-0",
+          "text": "测试合计",
+          "pdf_page": 2,
+          "bbox": [
+            449,
+            188.89,
+            493.0,
+            208.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-1-0-0",
+          "text": "04",
+          "pdf_page": 2,
+          "bbox": [
+            44,
+            243.89,
+            59.1,
+            263.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-1-1-0",
+          "text": "虚构甲企业",
+          "pdf_page": 2,
+          "bbox": [
+            89,
+            243.89,
+            143.0,
+            263.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-1-2-0",
+          "text": "80,000.00",
+          "pdf_page": 2,
+          "bbox": [
+            229,
+            243.89,
+            277.41,
+            263.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-1-3-0",
+          "text": "1,000.00",
+          "pdf_page": 2,
+          "bbox": [
+            339,
+            243.89,
+            381.86,
+            263.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-1-4-0",
+          "text": "81,000.00",
+          "pdf_page": 2,
+          "bbox": [
+            449,
+            243.89,
+            497.41,
+            263.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-2-0-0",
+          "text": "05",
+          "pdf_page": 2,
+          "bbox": [
+            44,
+            298.89,
+            59.1,
+            318.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-2-1-0",
+          "text": "虚构乙企业",
+          "pdf_page": 2,
+          "bbox": [
+            89,
+            298.89,
+            143.0,
+            318.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-2-2-0",
+          "text": "80,000.00",
+          "pdf_page": 2,
+          "bbox": [
+            229,
+            298.89,
+            277.41,
+            318.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-2-3-0",
+          "text": "2,000.00",
+          "pdf_page": 2,
+          "bbox": [
+            339,
+            298.89,
+            381.86,
+            318.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-2-4-0",
+          "text": "82,000.00",
+          "pdf_page": 2,
+          "bbox": [
+            449,
+            298.89,
+            497.41,
+            318.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-3-0-0",
+          "text": "06",
+          "pdf_page": 2,
+          "bbox": [
+            44,
+            353.89,
+            59.1,
+            373.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-3-1-0",
+          "text": "虚构丙企业",
+          "pdf_page": 2,
+          "bbox": [
+            89,
+            353.89,
+            143.0,
+            373.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-3-2-0",
+          "text": "80,000.00",
+          "pdf_page": 2,
+          "bbox": [
+            229,
+            353.89,
+            277.41,
+            373.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-3-3-0",
+          "text": "3,000.00",
+          "pdf_page": 2,
+          "bbox": [
+            339,
+            353.89,
+            381.86,
+            373.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-3-4-0",
+          "text": "83,000.00",
+          "pdf_page": 2,
+          "bbox": [
+            449,
+            353.89,
+            497.41,
+            373.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "status-1",
+          "text": "状态：待核对；主体、金额均为自制测试数据。",
+          "pdf_page": 2,
+          "bbox": [
+            53,
+            462.89,
+            288.0,
+            483.74
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "footer-2",
+          "text": "第 12 页",
+          "pdf_page": 2,
+          "bbox": [
+            264,
+            795.89,
+            303.58,
+            815.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        }
+      ],
+      "scenario": "债权表：同名主体、重复本金、两页重复表头",
+      "ocr": "off",
+      "acceptance": {
+        "min_native_verified_coverage": 0.95,
+        "min_ocr_candidate_coverage": 0
+      }
+    },
+    {
+      "pdf": "creditors_merged.pdf",
+      "sha256": "e6564f9d333a2748f9f2d11daa07ee66ccb3fda0084b49612bc56c49f538ca5e",
+      "pages": [
+        {
+          "pdf_page": 1,
+          "printed_page_label": "23",
+          "text_origin": "native"
+        }
+      ],
+      "checkpoints": [
+        {
+          "id": "title",
+          "text": "债权分类表（自制合并单元格样本）",
+          "pdf_page": 1,
+          "bbox": [
+            48,
+            61.89,
+            324.0,
+            90.84
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "note",
+          "text": "表中分类为虚构字段，不表达法律认定。",
+          "pdf_page": 1,
+          "bbox": [
+            48,
+            112.89,
+            250.0,
+            133.74
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "n",
+          "text": "编号",
+          "pdf_page": 1,
+          "bbox": [
+            46,
+            224.89,
+            72.0,
+            245.74
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "who",
+          "text": "债权人",
+          "pdf_page": 1,
+          "bbox": [
+            103,
+            224.89,
+            140.0,
+            245.74
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "group",
+          "text": "申报金额",
+          "pdf_page": 1,
+          "bbox": [
+            353,
+            200.89,
+            401.0,
+            221.74
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "principal",
+          "text": "本金",
+          "pdf_page": 1,
+          "bbox": [
+            256,
+            245.89,
+            282.0,
+            266.74
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "interest",
+          "text": "利息",
+          "pdf_page": 1,
+          "bbox": [
+            363,
+            245.89,
+            389.0,
+            266.74
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "total",
+          "text": "合计",
+          "pdf_page": 1,
+          "bbox": [
+            470,
+            245.89,
+            496.0,
+            266.74
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r0c0",
+          "text": "M01",
+          "pdf_page": 1,
+          "bbox": [
+            44,
+            290.89,
+            67.22,
+            310.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r0c1",
+          "text": "虚构丁企业",
+          "pdf_page": 1,
+          "bbox": [
+            99,
+            290.89,
+            153.0,
+            310.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r0c2",
+          "text": "60,000.00",
+          "pdf_page": 1,
+          "bbox": [
+            239,
+            290.89,
+            287.41,
+            310.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r0c3",
+          "text": "6,000.00",
+          "pdf_page": 1,
+          "bbox": [
+            344,
+            290.89,
+            386.86,
+            310.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r0c4",
+          "text": "66,000.00",
+          "pdf_page": 1,
+          "bbox": [
+            449,
+            290.89,
+            497.41,
+            310.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r1c0",
+          "text": "M02",
+          "pdf_page": 1,
+          "bbox": [
+            44,
+            335.89,
+            67.22,
+            355.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r1c1",
+          "text": "虚构戊企业",
+          "pdf_page": 1,
+          "bbox": [
+            99,
+            335.89,
+            153.0,
+            355.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r1c2",
+          "text": "60,000.00",
+          "pdf_page": 1,
+          "bbox": [
+            239,
+            335.89,
+            287.41,
+            355.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r1c3",
+          "text": "0.00",
+          "pdf_page": 1,
+          "bbox": [
+            344,
+            335.89,
+            367.43,
+            355.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r1c4",
+          "text": "60,000.00",
+          "pdf_page": 1,
+          "bbox": [
+            449,
+            335.89,
+            497.41,
+            355.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r2c0",
+          "text": "M03",
+          "pdf_page": 1,
+          "bbox": [
+            44,
+            380.89,
+            67.22,
+            400.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r2c1",
+          "text": "虚构己企业",
+          "pdf_page": 1,
+          "bbox": [
+            99,
+            380.89,
+            153.0,
+            400.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r2c2",
+          "text": "90,000.00",
+          "pdf_page": 1,
+          "bbox": [
+            239,
+            380.89,
+            287.41,
+            400.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r2c3",
+          "text": "9,000.00",
+          "pdf_page": 1,
+          "bbox": [
+            344,
+            380.89,
+            386.86,
+            400.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r2c4",
+          "text": "99,000.00",
+          "pdf_page": 1,
+          "bbox": [
+            449,
+            380.89,
+            497.41,
+            400.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r3c0",
+          "text": "合计",
+          "pdf_page": 1,
+          "bbox": [
+            44,
+            425.89,
+            68.0,
+            445.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r3c1",
+          "text": "测试汇总",
+          "pdf_page": 1,
+          "bbox": [
+            99,
+            425.89,
+            143.0,
+            445.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r3c2",
+          "text": "210,000.00",
+          "pdf_page": 1,
+          "bbox": [
+            239,
+            425.89,
+            292.96,
+            445.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r3c3",
+          "text": "15,000.00",
+          "pdf_page": 1,
+          "bbox": [
+            344,
+            425.89,
+            392.41,
+            445.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "r3c4",
+          "text": "225,000.00",
+          "pdf_page": 1,
+          "bbox": [
+            449,
+            425.89,
+            502.96,
+            445.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "tail",
+          "text": "保留原单元格跨度；不以空白单元格推断零金额。",
+          "pdf_page": 1,
+          "bbox": [
+            48,
+            497.89,
+            294.0,
+            518.74
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "footer-1",
+          "text": "第 23 页",
+          "pdf_page": 1,
+          "bbox": [
+            264,
+            795.89,
+            303.58,
+            815.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        }
+      ],
+      "scenario": "债权表：两层表头、跨列合并、重复金额",
+      "ocr": "off",
+      "acceptance": {
+        "min_native_verified_coverage": 0.75,
+        "min_ocr_candidate_coverage": 0
+      }
+    },
+    {
+      "pdf": "table_three_pages.pdf",
+      "sha256": "9783bf71951f8be7f3e60dbe8d1b405df7fde0f5b6633511203a9e8e4e24a34c",
+      "pages": [
+        {
+          "pdf_page": 1,
+          "printed_page_label": "31",
+          "text_origin": "native"
+        },
+        {
+          "pdf_page": 2,
+          "printed_page_label": "32",
+          "text_origin": "native"
+        },
+        {
+          "pdf_page": 3,
+          "printed_page_label": "33",
+          "text_origin": "native"
+        }
+      ],
+      "checkpoints": [
+        {
+          "id": "title-0",
+          "text": "工程分项明细（三页自制样本）",
+          "pdf_page": 1,
+          "bbox": [
+            48,
+            60.89,
+            304.0,
+            91.19
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "note-0",
+          "text": "多行说明跨页；页内表头不必完全相同。",
+          "pdf_page": 1,
+          "bbox": [
+            48,
+            112.89,
+            250.0,
+            133.74
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-0-0-0",
+          "text": "序号",
+          "pdf_page": 1,
+          "bbox": [
+            46,
+            188.89,
+            70.0,
+            208.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-0-1-0",
+          "text": "施工内容",
+          "pdf_page": 1,
+          "bbox": [
+            99,
+            188.89,
+            143.0,
+            208.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-0-2-0",
+          "text": "数量",
+          "pdf_page": 1,
+          "bbox": [
+            304,
+            188.89,
+            328.0,
+            208.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-0-3-0",
+          "text": "金额",
+          "pdf_page": 1,
+          "bbox": [
+            409,
+            188.89,
+            433.0,
+            208.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-1-0-0",
+          "text": "C01",
+          "pdf_page": 1,
+          "bbox": [
+            46,
+            263.89,
+            67.48,
+            283.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-1-1-0",
+          "text": "围护施工",
+          "pdf_page": 1,
+          "bbox": [
+            99,
+            263.89,
+            143.0,
+            283.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-1-2-0",
+          "text": "10",
+          "pdf_page": 1,
+          "bbox": [
+            304,
+            263.89,
+            319.1,
+            283.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-1-3-0",
+          "text": "30,000.00",
+          "pdf_page": 1,
+          "bbox": [
+            409,
+            263.89,
+            457.41,
+            283.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-2-0-0",
+          "text": "C02",
+          "pdf_page": 1,
+          "bbox": [
+            46,
+            338.89,
+            67.48,
+            358.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-2-1-0",
+          "text": "管道施工",
+          "pdf_page": 1,
+          "bbox": [
+            99,
+            338.89,
+            143.0,
+            358.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-2-2-0",
+          "text": "20",
+          "pdf_page": 1,
+          "bbox": [
+            304,
+            338.89,
+            319.1,
+            358.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-2-3-0",
+          "text": "30,000.00",
+          "pdf_page": 1,
+          "bbox": [
+            409,
+            338.89,
+            457.41,
+            358.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-3-0-0",
+          "text": "C03",
+          "pdf_page": 1,
+          "bbox": [
+            46,
+            413.89,
+            67.48,
+            433.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-3-1-0",
+          "text": "钢结构制作",
+          "pdf_page": 1,
+          "bbox": [
+            99,
+            413.89,
+            153.0,
+            433.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-3-1-1",
+          "text": "含构件预处理",
+          "pdf_page": 1,
+          "bbox": [
+            99,
+            429.89,
+            163.0,
+            449.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-3-2-0",
+          "text": "30",
+          "pdf_page": 1,
+          "bbox": [
+            304,
+            413.89,
+            319.1,
+            433.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-3-3-0",
+          "text": "90,000.00",
+          "pdf_page": 1,
+          "bbox": [
+            409,
+            413.89,
+            457.41,
+            433.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "tail-0",
+          "text": "不得仅凭空序号合并记录；原始页内片段应保留。",
+          "pdf_page": 1,
+          "bbox": [
+            48,
+            527.89,
+            294.0,
+            548.74
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "footer-1",
+          "text": "第 31 页",
+          "pdf_page": 1,
+          "bbox": [
+            264,
+            795.89,
+            303.58,
+            815.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "title-1",
+          "text": "工程分项明细（三页自制样本）",
+          "pdf_page": 2,
+          "bbox": [
+            48,
+            60.89,
+            304.0,
+            91.19
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "note-1",
+          "text": "多行说明跨页；页内表头不必完全相同。",
+          "pdf_page": 2,
+          "bbox": [
+            48,
+            112.89,
+            250.0,
+            133.74
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-0-0-0",
+          "text": "序号",
+          "pdf_page": 2,
+          "bbox": [
+            46,
+            188.89,
+            70.0,
+            208.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-0-1-0",
+          "text": "施工内容",
+          "pdf_page": 2,
+          "bbox": [
+            99,
+            188.89,
+            143.0,
+            208.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-0-2-0",
+          "text": "数量",
+          "pdf_page": 2,
+          "bbox": [
+            304,
+            188.89,
+            328.0,
+            208.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-0-3-0",
+          "text": "金额",
+          "pdf_page": 2,
+          "bbox": [
+            409,
+            188.89,
+            433.0,
+            208.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-1-1-0",
+          "text": "续C03：运输及吊装",
+          "pdf_page": 2,
+          "bbox": [
+            99,
+            263.89,
+            190.48,
+            283.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-1-1-1",
+          "text": "接上一页记录",
+          "pdf_page": 2,
+          "bbox": [
+            99,
+            279.89,
+            163.0,
+            299.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-2-0-0",
+          "text": "C04",
+          "pdf_page": 2,
+          "bbox": [
+            46,
+            338.89,
+            67.48,
+            358.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-2-1-0",
+          "text": "设备就位",
+          "pdf_page": 2,
+          "bbox": [
+            99,
+            338.89,
+            143.0,
+            358.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-2-1-1",
+          "text": "含基础找平",
+          "pdf_page": 2,
+          "bbox": [
+            99,
+            354.89,
+            153.0,
+            374.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-2-2-0",
+          "text": "5",
+          "pdf_page": 2,
+          "bbox": [
+            304,
+            338.89,
+            313.55,
+            358.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-2-3-0",
+          "text": "20,000.00",
+          "pdf_page": 2,
+          "bbox": [
+            409,
+            338.89,
+            457.41,
+            358.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-3-0-0",
+          "text": "C05",
+          "pdf_page": 2,
+          "bbox": [
+            46,
+            413.89,
+            67.48,
+            433.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-3-1-0",
+          "text": "消防系统布线",
+          "pdf_page": 2,
+          "bbox": [
+            99,
+            413.89,
+            163.0,
+            433.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-3-1-1",
+          "text": "说明在下一页继续",
+          "pdf_page": 2,
+          "bbox": [
+            99,
+            429.89,
+            183.0,
+            449.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-3-2-0",
+          "text": "15",
+          "pdf_page": 2,
+          "bbox": [
+            304,
+            413.89,
+            319.1,
+            433.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-3-3-0",
+          "text": "40,000.00",
+          "pdf_page": 2,
+          "bbox": [
+            409,
+            413.89,
+            457.41,
+            433.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "tail-1",
+          "text": "不得仅凭空序号合并记录；原始页内片段应保留。",
+          "pdf_page": 2,
+          "bbox": [
+            48,
+            527.89,
+            294.0,
+            548.74
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "footer-2",
+          "text": "第 32 页",
+          "pdf_page": 2,
+          "bbox": [
+            264,
+            795.89,
+            303.58,
+            815.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "title-2",
+          "text": "工程分项明细（三页自制样本）",
+          "pdf_page": 3,
+          "bbox": [
+            48,
+            60.89,
+            304.0,
+            91.19
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "note-2",
+          "text": "多行说明跨页；页内表头不必完全相同。",
+          "pdf_page": 3,
+          "bbox": [
+            48,
+            112.89,
+            250.0,
+            133.74
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p2-0-0-0",
+          "text": "序号",
+          "pdf_page": 3,
+          "bbox": [
+            46,
+            188.89,
+            70.0,
+            208.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p2-0-1-0",
+          "text": "施工内容（续）",
+          "pdf_page": 3,
+          "bbox": [
+            99,
+            188.89,
+            173.0,
+            208.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p2-0-2-0",
+          "text": "数量",
+          "pdf_page": 3,
+          "bbox": [
+            304,
+            188.89,
+            328.0,
+            208.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p2-0-3-0",
+          "text": "金额",
+          "pdf_page": 3,
+          "bbox": [
+            409,
+            188.89,
+            433.0,
+            208.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p2-1-1-0",
+          "text": "续C05：联动测试",
+          "pdf_page": 3,
+          "bbox": [
+            99,
+            263.89,
+            180.48,
+            283.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p2-1-1-1",
+          "text": "接上一页记录",
+          "pdf_page": 3,
+          "bbox": [
+            99,
+            279.89,
+            163.0,
+            299.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p2-2-0-0",
+          "text": "C06",
+          "pdf_page": 3,
+          "bbox": [
+            46,
+            338.89,
+            67.48,
+            358.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p2-2-1-0",
+          "text": "现场清理",
+          "pdf_page": 3,
+          "bbox": [
+            99,
+            338.89,
+            143.0,
+            358.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p2-2-2-0",
+          "text": "1",
+          "pdf_page": 3,
+          "bbox": [
+            304,
+            338.89,
+            313.55,
+            358.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p2-2-3-0",
+          "text": "5,000.00",
+          "pdf_page": 3,
+          "bbox": [
+            409,
+            338.89,
+            451.86,
+            358.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p2-3-0-0",
+          "text": "合计",
+          "pdf_page": 3,
+          "bbox": [
+            46,
+            413.89,
+            70.0,
+            433.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p2-3-1-0",
+          "text": "自制测试汇总",
+          "pdf_page": 3,
+          "bbox": [
+            99,
+            413.89,
+            163.0,
+            433.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p2-3-3-0",
+          "text": "215,000.00",
+          "pdf_page": 3,
+          "bbox": [
+            409,
+            413.89,
+            462.96,
+            433.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "tail-2",
+          "text": "不得仅凭空序号合并记录；原始页内片段应保留。",
+          "pdf_page": 3,
+          "bbox": [
+            48,
+            527.89,
+            294.0,
+            548.74
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "footer-3",
+          "text": "第 33 页",
+          "pdf_page": 3,
+          "bbox": [
+            264,
+            795.89,
+            303.58,
+            815.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        }
+      ],
+      "logical_continuations": [
+        {
+          "from_page": 1,
+          "to_page": 2,
+          "record": "C03"
+        },
+        {
+          "from_page": 2,
+          "to_page": 3,
+          "record": "C05"
+        }
+      ],
+      "scenario": "三页表格：多行单元格、续行、重复金额、表头变化",
+      "ocr": "off",
+      "acceptance": {
+        "min_native_verified_coverage": 0.75,
+        "min_ocr_candidate_coverage": 0
+      }
+    },
+    {
+      "pdf": "table_no_header.pdf",
+      "sha256": "e43dc0fa03ab4882b6fed771781c09ca164b4e04a99502f3a8154a50e6736de0",
+      "pages": [
+        {
+          "pdf_page": 1,
+          "printed_page_label": "41",
+          "text_origin": "native"
+        },
+        {
+          "pdf_page": 2,
+          "printed_page_label": "42",
+          "text_origin": "native"
+        }
+      ],
+      "checkpoints": [
+        {
+          "id": "title-0",
+          "text": "工程续表（无重复表头测试）",
+          "pdf_page": 1,
+          "bbox": [
+            48,
+            60.89,
+            286.0,
+            91.19
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-0-0-0",
+          "text": "序号",
+          "pdf_page": 1,
+          "bbox": [
+            46,
+            183.89,
+            70.0,
+            203.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-0-1-0",
+          "text": "项目说明",
+          "pdf_page": 1,
+          "bbox": [
+            99,
+            183.89,
+            143.0,
+            203.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-0-2-0",
+          "text": "数量",
+          "pdf_page": 1,
+          "bbox": [
+            304,
+            183.89,
+            328.0,
+            203.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-0-3-0",
+          "text": "金额",
+          "pdf_page": 1,
+          "bbox": [
+            409,
+            183.89,
+            433.0,
+            203.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-1-0-0",
+          "text": "D01",
+          "pdf_page": 1,
+          "bbox": [
+            46,
+            263.89,
+            67.98,
+            283.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-1-1-0",
+          "text": "路面施工",
+          "pdf_page": 1,
+          "bbox": [
+            99,
+            263.89,
+            143.0,
+            283.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-1-2-0",
+          "text": "12",
+          "pdf_page": 1,
+          "bbox": [
+            304,
+            263.89,
+            319.1,
+            283.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-1-3-0",
+          "text": "70,000.00",
+          "pdf_page": 1,
+          "bbox": [
+            409,
+            263.89,
+            457.41,
+            283.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-2-0-0",
+          "text": "D02",
+          "pdf_page": 1,
+          "bbox": [
+            46,
+            343.89,
+            67.98,
+            363.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-2-1-0",
+          "text": "排水施工",
+          "pdf_page": 1,
+          "bbox": [
+            99,
+            343.89,
+            143.0,
+            363.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-2-1-1",
+          "text": "后续说明见次页",
+          "pdf_page": 1,
+          "bbox": [
+            99,
+            359.89,
+            173.0,
+            379.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-2-2-0",
+          "text": "8",
+          "pdf_page": 1,
+          "bbox": [
+            304,
+            343.89,
+            313.55,
+            363.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p0-2-3-0",
+          "text": "40,000.00",
+          "pdf_page": 1,
+          "bbox": [
+            409,
+            343.89,
+            457.41,
+            363.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "tail-0",
+          "text": "正文片段继续不等于已经识别为同一逻辑表。",
+          "pdf_page": 1,
+          "bbox": [
+            48,
+            472.89,
+            272.0,
+            493.74
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "footer-1",
+          "text": "第 41 页",
+          "pdf_page": 1,
+          "bbox": [
+            264,
+            795.89,
+            303.58,
+            815.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "title-1",
+          "text": "工程续表（无重复表头测试）",
+          "pdf_page": 2,
+          "bbox": [
+            48,
+            60.89,
+            286.0,
+            91.19
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-0-1-0",
+          "text": "续D02：井室及收口",
+          "pdf_page": 2,
+          "bbox": [
+            99,
+            183.89,
+            190.98,
+            203.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-0-1-1",
+          "text": "本页未重复表头",
+          "pdf_page": 2,
+          "bbox": [
+            99,
+            199.89,
+            173.0,
+            219.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-1-0-0",
+          "text": "D03",
+          "pdf_page": 2,
+          "bbox": [
+            46,
+            263.89,
+            67.98,
+            283.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-1-1-0",
+          "text": "铺装施工",
+          "pdf_page": 2,
+          "bbox": [
+            99,
+            263.89,
+            143.0,
+            283.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-1-2-0",
+          "text": "12",
+          "pdf_page": 2,
+          "bbox": [
+            304,
+            263.89,
+            319.1,
+            283.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-1-3-0",
+          "text": "70,000.00",
+          "pdf_page": 2,
+          "bbox": [
+            409,
+            263.89,
+            457.41,
+            283.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-2-0-0",
+          "text": "合计",
+          "pdf_page": 2,
+          "bbox": [
+            46,
+            343.89,
+            70.0,
+            363.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-2-1-0",
+          "text": "自制合计",
+          "pdf_page": 2,
+          "bbox": [
+            99,
+            343.89,
+            143.0,
+            363.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "p1-2-3-0",
+          "text": "180,000.00",
+          "pdf_page": 2,
+          "bbox": [
+            409,
+            343.89,
+            462.96,
+            363.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "tail-1",
+          "text": "正文片段继续不等于已经识别为同一逻辑表。",
+          "pdf_page": 2,
+          "bbox": [
+            48,
+            472.89,
+            272.0,
+            493.74
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "footer-2",
+          "text": "第 42 页",
+          "pdf_page": 2,
+          "bbox": [
+            264,
+            795.89,
+            303.58,
+            815.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        }
+      ],
+      "scenario": "两页表格：次页无表头、空白键续行",
+      "ocr": "off",
+      "acceptance": {
+        "min_native_verified_coverage": 0.75,
+        "min_ocr_candidate_coverage": 0
+      }
+    },
+    {
+      "pdf": "page_labels.pdf",
+      "sha256": "d9f630dd7088d6e54711513e25c1bc2b468b05bf7da05e8224b061ea63155656",
+      "pages": [
+        {
+          "pdf_page": 1,
+          "printed_page_label": null,
+          "pdf_page_label": "i",
+          "text_origin": "native"
+        },
+        {
+          "pdf_page": 2,
+          "printed_page_label": "21",
+          "pdf_page_label": "A-10",
+          "text_origin": "native"
+        },
+        {
+          "pdf_page": 3,
+          "printed_page_label": null,
+          "printed_label_status": "ambiguous",
+          "printed_label_candidates": [
+            "22",
+            "99"
+          ],
+          "pdf_page_label": "A-11",
+          "text_origin": "native"
+        }
+      ],
+      "checkpoints": [
+        {
+          "id": "title-0",
+          "text": "页码与文件内部标签测试",
+          "pdf_page": 1,
+          "bbox": [
+            53,
+            65.89,
+            255.0,
+            96.19
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "body-0",
+          "text": "自制页面P1，实际页序与印刷页码分别记录。",
+          "pdf_page": 1,
+          "bbox": [
+            53,
+            176.89,
+            299.256,
+            199.09
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "title-1",
+          "text": "页码与文件内部标签测试",
+          "pdf_page": 2,
+          "bbox": [
+            53,
+            65.89,
+            255.0,
+            96.19
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "body-1",
+          "text": "自制页面P2，实际页序与印刷页码分别记录。",
+          "pdf_page": 2,
+          "bbox": [
+            53,
+            176.89,
+            299.256,
+            199.09
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "footer-2",
+          "text": "第 21 页",
+          "pdf_page": 2,
+          "bbox": [
+            264,
+            795.89,
+            303.58,
+            815.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "title-2",
+          "text": "页码与文件内部标签测试",
+          "pdf_page": 3,
+          "bbox": [
+            53,
+            65.89,
+            255.0,
+            96.19
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "body-2",
+          "text": "自制页面P3，实际页序与印刷页码分别记录。",
+          "pdf_page": 3,
+          "bbox": [
+            53,
+            176.89,
+            299.256,
+            199.09
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "footer-left",
+          "text": "第 22 页",
+          "pdf_page": 3,
+          "bbox": [
+            98,
+            795.89,
+            137.58,
+            815.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "footer-right",
+          "text": "第 99 页",
+          "pdf_page": 3,
+          "bbox": [
+            398,
+            795.89,
+            437.58,
+            815.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        }
+      ],
+      "scenario": "封面、PDF页标签、印刷页码、双页脚歧义",
+      "ocr": "off",
+      "acceptance": {
+        "min_native_verified_coverage": 1,
+        "min_ocr_candidate_coverage": 0
+      }
+    },
+    {
+      "pdf": "scan_contract.pdf",
+      "sha256": "a969e9042122fc7c09c975aeb41206bffaad6c98ef6ec009f0851249da52d1b1",
+      "pages": [
+        {
+          "pdf_page": 1,
+          "printed_page_label": "51",
+          "text_origin": "ocr"
+        },
+        {
+          "pdf_page": 2,
+          "printed_page_label": "52",
+          "text_origin": "ocr"
+        }
+      ],
+      "checkpoints": [
+        {
+          "id": "title-0",
+          "text": "扫描合同（完全自制测试）",
+          "pdf_page": 1,
+          "bbox": [
+            53,
+            60.89,
+            273.0,
+            91.19
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        },
+        {
+          "id": "p0-line0",
+          "text": "甲方：虚构扫描甲单位",
+          "pdf_page": 1,
+          "bbox": [
+            53,
+            145.89,
+            187.0,
+            169.44
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        },
+        {
+          "id": "p0-line1",
+          "text": "乙方：虚构扫描乙单位",
+          "pdf_page": 1,
+          "bbox": [
+            53,
+            210.89,
+            187.0,
+            234.44
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        },
+        {
+          "id": "p0-line2",
+          "text": "测试金额为人民币30,000.00元。",
+          "pdf_page": 1,
+          "bbox": [
+            53,
+            275.89,
+            244.733,
+            299.44
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        },
+        {
+          "id": "p0-line3",
+          "text": "同一款项应当保留核对记录。",
+          "pdf_page": 1,
+          "bbox": [
+            53,
+            340.89,
+            226.0,
+            364.44
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        },
+        {
+          "id": "p0-line4",
+          "text": "本文件为图像测试，不含真实签章。",
+          "pdf_page": 1,
+          "bbox": [
+            53,
+            405.89,
+            265.0,
+            429.44
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        },
+        {
+          "id": "footer-1",
+          "text": "第 51 页",
+          "pdf_page": 1,
+          "bbox": [
+            264,
+            795.89,
+            303.58,
+            815.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        },
+        {
+          "id": "title-1",
+          "text": "扫描合同（完全自制测试）",
+          "pdf_page": 2,
+          "bbox": [
+            53,
+            60.89,
+            273.0,
+            91.19
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        },
+        {
+          "id": "p1-line0",
+          "text": "甲方：虚构扫描甲单位",
+          "pdf_page": 2,
+          "bbox": [
+            53,
+            145.89,
+            187.0,
+            169.44
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        },
+        {
+          "id": "p1-line1",
+          "text": "乙方：虚构扫描乙单位",
+          "pdf_page": 2,
+          "bbox": [
+            53,
+            210.89,
+            187.0,
+            234.44
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        },
+        {
+          "id": "p1-line2",
+          "text": "测试金额为人民币30,000.00元。",
+          "pdf_page": 2,
+          "bbox": [
+            53,
+            275.89,
+            244.733,
+            299.44
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        },
+        {
+          "id": "p1-line3",
+          "text": "同一款项应当保留核对记录。",
+          "pdf_page": 2,
+          "bbox": [
+            53,
+            340.89,
+            226.0,
+            364.44
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        },
+        {
+          "id": "p1-line4",
+          "text": "本文件为图像测试，不含真实签章。",
+          "pdf_page": 2,
+          "bbox": [
+            53,
+            405.89,
+            265.0,
+            429.44
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        },
+        {
+          "id": "footer-2",
+          "text": "第 52 页",
+          "pdf_page": 2,
+          "bbox": [
+            264,
+            795.89,
+            303.58,
+            815.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        }
+      ],
+      "scenario": "清晰中文扫描：重复条款和金额",
+      "ocr": "mac",
+      "acceptance": {
+        "min_native_verified_coverage": 0,
+        "min_ocr_candidate_coverage": 0.7
+      }
+    },
+    {
+      "pdf": "scan_degraded.pdf",
+      "sha256": "eeafac9cc82fc6bd3391ec168133f5c5537cb1becb96a93e59c9c9b2f4e31846",
+      "pages": [
+        {
+          "pdf_page": 1,
+          "printed_page_label": "61",
+          "text_origin": "ocr"
+        }
+      ],
+      "checkpoints": [
+        {
+          "id": "title",
+          "text": "低清债权表扫描样本",
+          "pdf_page": 1,
+          "bbox": [
+            53,
+            62.89,
+            201.0,
+            90.49
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        },
+        {
+          "id": "scan-0-0-0",
+          "text": "编号",
+          "pdf_page": 1,
+          "bbox": [
+            49,
+            188.89,
+            73.0,
+            208.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        },
+        {
+          "id": "scan-0-1-0",
+          "text": "虚构债权人",
+          "pdf_page": 1,
+          "bbox": [
+            109,
+            188.89,
+            163.0,
+            208.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        },
+        {
+          "id": "scan-0-2-0",
+          "text": "申报金额",
+          "pdf_page": 1,
+          "bbox": [
+            289,
+            188.89,
+            333.0,
+            208.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        },
+        {
+          "id": "scan-0-3-0",
+          "text": "备注",
+          "pdf_page": 1,
+          "bbox": [
+            424,
+            188.89,
+            448.0,
+            208.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        },
+        {
+          "id": "scan-1-0-0",
+          "text": "S01",
+          "pdf_page": 1,
+          "bbox": [
+            49,
+            258.89,
+            70.06,
+            278.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        },
+        {
+          "id": "scan-1-1-0",
+          "text": "虚构扫描丙",
+          "pdf_page": 1,
+          "bbox": [
+            109,
+            258.89,
+            163.0,
+            278.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        },
+        {
+          "id": "scan-1-2-0",
+          "text": "8,888.88",
+          "pdf_page": 1,
+          "bbox": [
+            289,
+            258.89,
+            331.86,
+            278.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        },
+        {
+          "id": "scan-1-3-0",
+          "text": "待核对",
+          "pdf_page": 1,
+          "bbox": [
+            424,
+            258.89,
+            458.0,
+            278.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        },
+        {
+          "id": "scan-2-0-0",
+          "text": "S02",
+          "pdf_page": 1,
+          "bbox": [
+            49,
+            328.89,
+            70.06,
+            348.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        },
+        {
+          "id": "scan-2-1-0",
+          "text": "虚构扫描丁",
+          "pdf_page": 1,
+          "bbox": [
+            109,
+            328.89,
+            163.0,
+            348.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        },
+        {
+          "id": "scan-2-2-0",
+          "text": "8,888.88",
+          "pdf_page": 1,
+          "bbox": [
+            289,
+            328.89,
+            331.86,
+            348.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        },
+        {
+          "id": "scan-2-3-0",
+          "text": "待核对",
+          "pdf_page": 1,
+          "bbox": [
+            424,
+            328.89,
+            458.0,
+            348.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        },
+        {
+          "id": "small",
+          "text": "小字与相似数字仅为辨识测试：0O、1I、8B。",
+          "pdf_page": 1,
+          "bbox": [
+            53,
+            490.89,
+            219.856,
+            507.69
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        },
+        {
+          "id": "footer-1",
+          "text": "第 61 页",
+          "pdf_page": 1,
+          "bbox": [
+            264,
+            795.89,
+            303.58,
+            815.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        }
+      ],
+      "scenario": "低清灰度扫描：小字、相似数字和重复金额",
+      "ocr": "mac",
+      "acceptance": {
+        "min_native_verified_coverage": 0,
+        "min_ocr_candidate_coverage": 0.25
+      }
+    },
+    {
+      "pdf": "hybrid.pdf",
+      "sha256": "b37d8126209df11c36bfe5d7242a5dbd8471dbbda73254cc33e65d28f23c4061",
+      "pages": [
+        {
+          "pdf_page": 1,
+          "printed_page_label": "71",
+          "text_origin": "native"
+        },
+        {
+          "pdf_page": 2,
+          "printed_page_label": "72",
+          "text_origin": "ocr"
+        }
+      ],
+      "checkpoints": [
+        {
+          "id": "title-0",
+          "text": "债权材料核对单（自制混合样本）",
+          "pdf_page": 1,
+          "bbox": [
+            48,
+            66.89,
+            307.0,
+            95.84
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "note-0",
+          "text": "本页保留同一款项的核对记录。",
+          "pdf_page": 1,
+          "bbox": [
+            53,
+            165.89,
+            239.0,
+            189.44
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "money-0",
+          "text": "重复测试金额30,000.00元。",
+          "pdf_page": 1,
+          "bbox": [
+            53,
+            235.89,
+            218.733,
+            259.44
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "id-0",
+          "text": "测试记录HX-01，不得据此认定真实债权。",
+          "pdf_page": 1,
+          "bbox": [
+            53,
+            306.89,
+            282.096,
+            329.09
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "footer-1",
+          "text": "第 71 页",
+          "pdf_page": 1,
+          "bbox": [
+            264,
+            795.89,
+            303.58,
+            815.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "native"
+        },
+        {
+          "id": "title-1",
+          "text": "债权材料核对单（自制混合样本）",
+          "pdf_page": 2,
+          "bbox": [
+            48,
+            66.89,
+            307.0,
+            95.84
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        },
+        {
+          "id": "note-1",
+          "text": "本页保留同一款项的核对记录。",
+          "pdf_page": 2,
+          "bbox": [
+            53,
+            165.89,
+            239.0,
+            189.44
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        },
+        {
+          "id": "money-1",
+          "text": "重复测试金额30,000.00元。",
+          "pdf_page": 2,
+          "bbox": [
+            53,
+            235.89,
+            218.733,
+            259.44
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        },
+        {
+          "id": "id-1",
+          "text": "测试记录HX-02，不得据此认定真实债权。",
+          "pdf_page": 2,
+          "bbox": [
+            53,
+            306.89,
+            282.096,
+            329.09
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        },
+        {
+          "id": "footer-2",
+          "text": "第 72 页",
+          "pdf_page": 2,
+          "bbox": [
+            264,
+            795.89,
+            303.58,
+            815.39
+          ],
+          "coord_origin": "TOPLEFT",
+          "units": "pt",
+          "text_origin": "ocr"
+        }
+      ],
+      "scenario": "混合PDF：原生文字页与扫描页、跨来源重复金额",
+      "ocr": "mac",
+      "acceptance": {
+        "min_native_verified_coverage": 1,
+        "min_ocr_candidate_coverage": 0.6
+      }
+    }
+  ]
+}
