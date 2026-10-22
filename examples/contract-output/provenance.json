@@ -7,7 +7,7 @@
     "page_count": 3
   },
   "parser": {
-    "tool_version": "0.2.0",
+    "tool_version": "0.2.1",
     "versions": {
       "docling-slim": "2.141.0",
       "docling-core": "2.103.1",
@@ -31,7 +31,7 @@
     "export_layers": "all",
     "ocr_options": null
   },
-  "config_sha256": "d7d474768fee1adcd1df3a183e7b4cb14ecdce6606e5151121f44d29f7987476",
+  "config_sha256": "ccf439376ba62744f55228e426fca01e89245301d9bdbd9b95537b737c5a7dd0",
   "models": [
     {
       "repo": "docling-project/docling-layout-heron",
@@ -84,10 +84,10 @@
       "native_text_available": true
     }
   ],
-  "markdown_sha256": "02a53a74ae014dd9df60b702bdb01bebe80682f4cab18948cfbb9b4a1dfba0d7",
+  "markdown_sha256": "c3eb9cd50fa2745a4b69dff1707a9ba4a93db4a74c900387ac0d4460bf14e01a",
   "records": [
     {
-      "id": "c088d0718d9b0e2fad1508dc",
+      "id": "72520d663b9dbacb555754bf",
       "ordinal": 1,
       "markdown_text": "## 设备采购合同（自制测试样本）",
       "markdown_sha256": "85d567c01ba0a0f7370b6775679aba133c783987b9eec89a2a7e780ad32e7095",
@@ -138,7 +138,7 @@
       ]
     },
     {
-      "id": "6958fc24d536b82031cc45e4",
+      "id": "9da2496839e554c024e45bc0",
       "ordinal": 2,
       "markdown_text": "所有主体与交易均为虚构，仅用于程序测试。",
       "markdown_sha256": "1571c627b9d8a017d0587f49d06daed1968efa7dca1c9311f04f2f80ab0d1377",
@@ -189,7 +189,7 @@
       ]
     },
     {
-      "id": "718a55e73c6e22d2071ae52e",
+      "id": "5931c974ed80e29cbf9b0e17",
       "ordinal": 3,
       "markdown_text": "测试编号：HT-001",
       "markdown_sha256": "80ee9138c5b4e37d07dbb00baefe2dc7dabea6d647af5b3d2bd021cf2b60b5a1",
@@ -240,7 +240,7 @@
       ]
     },
     {
-      "id": "a469534d42589012f1401a17",
+      "id": "8dd3268c11e96a9e2ec45877",
       "ordinal": 4,
       "markdown_text": "## 设备采购合同",
       "markdown_sha256": "cc92dc8c76c17f1e0be91acb6c91a7bae6e67cbd07ca66a8092dab7d92067526",
@@ -291,7 +291,7 @@
       ]
     },
     {
-      "id": "7d54717735aab1611c788e33",
+      "id": "cb898ae4ea62a77b8f2f9ecf",
       "ordinal": 5,
       "markdown_text": "出卖人：虚构甲方测试单位\n\n买受人：虚构乙方测试单位",
       "markdown_sha256": "014426f97e52f4fa7426790ab876d74e72ec953cb8d3b9c9f814dbc3d5f7dfab",
@@ -374,7 +374,7 @@
       ]
     },
     {
-      "id": "6f2e8893812bd5791bf4f824",
+      "id": "b0f14dc87d89599ee959724f",
       "ordinal": 6,
       "markdown_text": "第一条 合同价款为人民币100,000.00元。",
       "markdown_sha256": "d609161d678320cc50d0aacfe0a6c994516fb83d1dae4461bec2845ab8b9b677",
@@ -425,7 +425,7 @@
       ]
     },
     {
-      "id": "92619421668a49b836f6a659",
+      "id": "cf3b958ca790e32fe06a25c0",
       "ordinal": 7,
       "markdown_text": "第二条 首期支付人民币50,000.00元。",
       "markdown_sha256": "059f56fb2917cb61835b0939101ab2f5f8fae7e699c9169625b7e715372f6d5e",
@@ -476,7 +476,7 @@
       ]
     },
     {
-      "id": "30d022e39aaa6f9026823782",
+      "id": "66a68f9a38758d7f85bb7afe",
       "ordinal": 8,
       "markdown_text": "双方应当保存交付记录。",
       "markdown_sha256": "f883ace1e3d4befb8a8d7aeeb46551cb412f3c0e170ba46d6f626b055dabe333",
@@ -527,7 +527,7 @@
       ]
     },
     {
-      "id": "05c7934a926f354492ffb550",
+      "id": "f2399305f73c5d5e96b3ab0d",
       "ordinal": 9,
       "markdown_text": "第三条 设备交付地点为测试仓库。",
       "markdown_sha256": "0138a3f28fef18298ee0a2089294d4013e813768d317fea66db799d198cbbb4d",
@@ -578,7 +578,7 @@
       ]
     },
     {
-      "id": "7a55e2d236bfe3acf9d88416",
+      "id": "c8c38979ec64e4d59dcb3b09",
       "ordinal": 10,
       "markdown_text": "第 1 页",
       "markdown_sha256": "ded61ffd4d21a88f8c88ec7a6cbf5f7589ebdecae7f79adb12b2d14d6cca950b",
@@ -629,7 +629,7 @@
       ]
     },
     {
-      "id": "81f1c8e0b06f712dc318569b",
+      "id": "118d562c685ba558c576e779",
       "ordinal": 11,
       "markdown_text": "## 设备采购合同（续）",
       "markdown_sha256": "3270e25159bd47536acd9846c85009705b4ec4a6afe6d49c4155f495b32ed6df",
@@ -680,7 +680,7 @@
       ]
     },
     {
-      "id": "e697622adbd6d8e6bbc166c8",
+      "id": "b44d5d3bdb49ee523216cbe9",
       "ordinal": 12,
       "markdown_text": "第四条 验收后支付人民币50,000.00元。",
       "markdown_sha256": "afbcc995ea600cf9778af60b56b208c8c1c800d291cb550c3204f2fa733624e7",
@@ -731,7 +731,7 @@
       ]
     },
     {
-      "id": "1bdbd4b589d796acfa28836b",
+      "id": "5f2a571d8768d951fb5b7322",
       "ordinal": 13,
       "markdown_text": "双方应当保存交付记录。",
       "markdown_sha256": "f883ace1e3d4befb8a8d7aeeb46551cb412f3c0e170ba46d6f626b055dabe333",
@@ -782,7 +782,7 @@
       ]
     },
     {
-      "id": "aafabd48d3d7995f982e58a4",
+      "id": "b493c96e5de26f7f0f6ffc58",
       "ordinal": 14,
       "markdown_text": "第五条 保修期限为十二个月。",
       "markdown_sha256": "10a0caac793f1a3db3cd4fd5d995d9415d92180fdbecf3471feb1797152f34ac",
@@ -833,7 +833,7 @@
       ]
     },
     {
-      "id": "efd4a17cbcabbcf13cd3595a",
+      "id": "3e5680455be6e75523536a08",
       "ordinal": 15,
       "markdown_text": "签署栏仅为测试文字，不含真实签名或印章。",
       "markdown_sha256": "b7dba949d41475f9f0c49a1e1650c4f879b812a7bed19d3e911a950b48c7fd4e",
@@ -884,7 +884,7 @@
       ]
     },
     {
-      "id": "d60442685fb90ae9b27ee9d2",
+      "id": "e55e78fffd4217cdaec8e594",
       "ordinal": 16,
       "markdown_text": "第 2 页",
       "markdown_sha256": "f0abcd127cd9f6687504714364f6397d140df598a4615daad4fb1dc736cd60bd",
@@ -938,7 +938,7 @@
   "conversion": {
     "status": "success",
     "errors": [],
-    "elapsed_seconds": 31.742
+    "elapsed_seconds": 21.414
   },
   "limitations": [
     "ocr_candidates_require_visual_review",

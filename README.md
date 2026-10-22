@@ -1,8 +1,14 @@
 # 中文文档原文定位与核对工具
 
-本地命令行工具，版本0.2.0，目前供试用与复现。以 Docling 为解析基础，将 Markdown 摘录与 PDF 的页面、区域和来源文字一起保存，并检查后续变化。现有10份完全自制样本，含债权表、复杂跨页表格、纯扫描件与混合PDF，不代表已验证一般中文案卷。
+本地命令行工具，版本0.2.1，供试用与复现。以 Docling™ 为解析基础，将 Markdown 摘录与 PDF 的页面、区域和来源文字一起保存，并检查后续变化。现有10份完全自制样本，含债权表、复杂跨页表格、纯扫描件与混合PDF，不代表已验证一般中文案卷。
 
 OCR默认关闭，可显式复用Docling已有的macOS Vision本地接口。OCR文字与位置均为待人工核对候选，不进入已核验计数。不接入聊天、知识库、服务器或收费API。本项目自有代码、文档及自制样本按 [MIT许可证](LICENSE)开源，版权署名Mgb。第三方组件、字体与模型分别适用各自条款，见 [第三方说明](third_party/NOTICE.md)。
+
+Docling™ 是 LF Projects, LLC 的商标。本项目为独立下游工具；对 Docling 的提及仅说明技术依赖，不表示由 Docling 或 LF Projects, LLC 官方维护、认可或认证。相关要求见 [LF Projects 商标政策](https://lfprojects.org/policies/trademark-policy/)。
+
+v0.2.1的变化见[更新说明](CHANGELOG.md)，源码包从[v0.2.1试用版](https://github.com/8mdphgg5yn-eng/cn-pdf-trace/releases/tag/v0.2.1)获取。请使用本版完整源码或`cn_pdf_trace-0.2.1.tar.gz`；旧v0.2.0不包含CPU安装来源等修改。按随源码提供的pyproject.toml和uv.lock执行下述`uv sync --frozen`；此时Linux的torch与torchvision来自官方CPU索引，锁中不含NCCL、NVSHMEM及CUDA/NVIDIA包。直接使用pip安装wheel或忽略uv源配置不能获得同样保证。macOS功能回归与Linux安装计划的实际验证范围见安装说明；不据此宣称整个依赖栈的全部权利已经审清。
+
+本版保留扫描OCR首次空缓存运行不稳定的已知问题：首次回归56项通过、8项失败，同环境重试64项通过。已捕获Apple Vision计算后端错误，底层原因尚未闭合，本版不承诺扫描OCR首次运行稳定。失败现场和重试结果分别记录，不能将重试通过视为首次从零复现通过；详见[测试说明](docs/testing.md)。
 
 无需安装即可先查看自制合同的 [Markdown](examples/contract-output/document.md)、[溯源JSON](examples/contract-output/provenance.json)和[核对报告](examples/contract-output/check-report.md)。
 
@@ -35,7 +41,8 @@ uv --native-tls sync --python python3.12 --no-python-downloads \
 .venv/bin/python scripts/prepare_assets.py
 .venv/bin/python scripts/make_fixtures.py
 .venv/bin/python scripts/run_demo.py
-.venv/bin/python -m pytest -q --junitxml=output/regression.xml
+.venv/bin/python -m pytest -c pyproject.toml --rootdir=. --confcutdir=. \
+  -q --junitxml=output/regression.xml
 .venv/bin/python scripts/acceptance.py --junit output/regression.xml --out output/acceptance.json
 ```
 
@@ -81,3 +88,5 @@ uv --native-tls sync --python python3.12 --no-python-downloads \
 本工具复用Docling解析、OCR适配和溯源元数据。独立部分是导出关联、保守的一致性核验、页码分栏和变更报告，不把上游已有能力称为创新。一个独立的用法示例及3项测试已贡献为 [docling-core PR #917](https://github.com/docling-project/docling-core/pull/917)；本工具的运行不依赖该PR合并。
 
 代码和测试由Mgb发起并使用OpenAI Codex辅助开发、核对。欢迎通过仓库issue提交最小自制复现，见 [贡献说明](CONTRIBUTING.md)。不要上传客户文件、案件材料、凭据或未获授权的文档。
+
+后续维护优先核查上述扫描OCR首次运行问题，继续使用自制样本、保留首次失败及重试证据，优先检查Docling和ocrmac已有能力。修复后重新执行完整回归，不以降低阈值或跳过扫描测试代替修复。

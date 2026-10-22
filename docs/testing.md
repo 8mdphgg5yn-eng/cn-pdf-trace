@@ -2,6 +2,10 @@
 
 完整回归目前实测于macOS arm64、Python 3.12；OCR使用Docling已有的macOS Vision接口，其他系统尚未验证完整扫描流程。安装步骤见 [安装说明](install.md)。
 
+v0.2.1最初的待核整理曾在已有缓存环境中64项通过。本轮从修正后的源码包、新虚拟环境及空依赖和模型缓存复核：安装、下载校验、断网探针和两次生成均通过，但首次完整回归56项通过、8项失败，集中在扫描OCR覆盖和重复运行一致性。同环境重新生成演示后，原封不动的64项测试全部通过，无错误或跳过。首次失败现场单独保留，未替换为重试结果。
+
+诊断在现有ocrmac调用中捕获Apple Vision的`e5rt_execution_stream_operation_create_precompiled_compute_operation_with_options call failed`错误；单独调用Vision又能正常返回文字。已比对的依赖文件与样本字节一致，但底层原因及其与沙箱或资源状态的关系尚未确定。没有修改第三方OCR实现、验收阈值或用旧输出充当新结果；本版作为带此已知问题的试用版提供，不能宣称首次空缓存完整复现已通过。具体范围及两次结果见[validation.json](validation.json)。
+
 ```sh
 .venv/bin/python scripts/prepare_assets.py
 .venv/bin/python scripts/make_fixtures.py

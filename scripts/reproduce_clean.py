@@ -50,9 +50,9 @@ def main():
     logs.mkdir()
     files = [ROOT/name for name in (
         "pyproject.toml", "uv.lock", "models.lock.json", "font.lock.json", "README.md",
-        ".gitignore", "CONTRIBUTING.md", "LICENSE",
+        ".gitignore", "CHANGELOG.md", "CONTRIBUTING.md", "LICENSE",
     ) if (ROOT/name).is_file()]
-    for folder in ("src", "scripts", "tests", "docs", "third_party"):
+    for folder in ("src", "scripts", "tests", "docs", "third_party", "examples"):
         files.extend(p for p in (ROOT/folder).rglob("*") if p.is_file()
                      and "__pycache__" not in p.parts and p.suffix != ".pyc"
                      and p.name != "prepare_release.py")
