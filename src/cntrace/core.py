@@ -244,7 +244,8 @@ class PdfEvidence:
 def check_models(model_dir: Path) -> tuple[dict, str]:
     manifest = model_dir / "manifest.json"
     if not manifest.is_file():
-        raise ValueError("缺少本地模型清单；先执行 scripts/prepare_assets.py")
+        raise ValueError(f"缺少本地模型清单：{manifest.resolve()}；请在项目根目录运行，"
+                         "或用 --models 指定模型目录；尚未下载时先执行 scripts/prepare_assets.py")
     data = json.loads(manifest.read_text())
     if not data.get("files"):
         raise ValueError("empty_model_manifest")
@@ -258,6 +259,9 @@ def check_models(model_dir: Path) -> tuple[dict, str]:
     return data, digest(canonical(data).encode())
 
 
+MAC_OCR_AVAILABLE = sys.platform == "darwin"
+
+
 def build_converter(model_dir: Path, *, ocr="off"):
     # Imports deliberately deferred: verification needs no model or torch import.
     from docling.datamodel.accelerator_options import AcceleratorDevice, AcceleratorOptions
@@ -267,7 +271,7 @@ def build_converter(model_dir: Path, *, ocr="off"):
 
     if ocr not in {"off", "mac"}:
         raise ValueError("unsupported_ocr_engine")
-    if ocr == "mac" and sys.platform != "darwin":
+    if ocr == "mac" and not MAC_OCR_AVAILABLE:
         raise ValueError("mac_ocr_requires_macos")
     opts = PdfPipelineOptions(artifacts_path=model_dir.resolve(), do_ocr=ocr != "off",
                               do_table_structure=True, enable_remote_services=False,

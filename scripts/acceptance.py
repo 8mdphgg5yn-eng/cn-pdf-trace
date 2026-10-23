@@ -26,6 +26,8 @@ def main():
     for document in gold["documents"]:
         stem = Path(document["pdf"]).stem
         bundle = ROOT/"output"/stem
+        if not (bundle/"provenance.json").is_file():
+            raise SystemExit(f"缺少样本输出 {bundle}（非macOS会跳过扫描样本）；验收不通过")
         ledger = json.loads((bundle/"provenance.json").read_text())
         report = verify(ROOT/"fixtures"/document["pdf"], bundle)
         metrics = evaluate(document, ledger)
