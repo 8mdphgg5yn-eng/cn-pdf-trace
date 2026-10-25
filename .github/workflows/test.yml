@@ -1,0 +1,28 @@
+name: Tests
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    # Linux only: scanned samples need macOS Vision OCR and are skipped by the
+    # existing logic, so this is not a full regression/acceptance run.
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+      - uses: actions/cache@v4
+        with:
+          path: .cache
+          key: assets-${{ hashFiles('models.lock.json', 'font.lock.json') }}
+      - run: uv sync --python 3.12 --frozen --no-editable --extra dev
+      - run: .venv/bin/ruff check .
+      - run: .venv/bin/python scripts/prepare_assets.py
+      - run: .venv/bin/python scripts/make_fixtures.py
+      - run: .venv/bin/python scripts/run_demo.py
+      - run: .venv/bin/python -m pytest -c pyproject.toml --rootdir=. --confcutdir=. -q -rs
